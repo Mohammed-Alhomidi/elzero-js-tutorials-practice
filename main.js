@@ -114,6 +114,10 @@
 // </div>
 // `;
 
+
+
+
+
 // document.write(part);
 
 
@@ -659,59 +663,67 @@
 // user.name = "mohammed";
 
 
-let man = document.querySelector("p");
-man.innerHTML = "Man is am <span>sex porn<span/> pan"
-console.log(man);
+// let man = document.querySelector("p");
+// man.innerHTML = "Man is am <span>sex porn<span/> pan"
+// console.log(man);
 
 
-man.textContent = "Man is am <span>sex porn<span/> pan"
-console.log(man);
+// man.textContent = "Man is am <span>sex porn<span/> pan"
+// console.log(man);
 
 
+// let myfrinds = ["Mohammed", "Ahamed", "Ali", ["Sara", "Norah",["Amerh", "Maha"]]];
+
+// let [ , , ,[a, ,[,b]]] = myfrinds;
 
 
+// console.log(a);
+// console.log(b);
 
 
+// let book = "video";
+// let video = "book";
+
+// // let that = book;
+
+// // book = video;
+// // video = that;
+
+// [book , video] = [video , book];
+
+// console.log(book);
+// console.log(video);
+
+// const user = {
+//     theName: "Mohammed",
+//     theAge: 19,
+//     skills: ["HTML" , "CSS" , "JavaScript"],
+//     addresses: {
+//         egypt: "Tize",
+//         ksa: "Riyadh",
+//     },
+// };
+
+// const {theName: n,  theAge: a, skills: [one , tow ,three], addresses: {egypt: e } } = user;
+
+// console.log(`Your Name is ${n}`);
+// console.log(`Your Age is ${a}`);
+// console.log(`Your Skills is  ${one} , ${tow} , ${three}`);
+// console.log(`Your addresses is ${e}`);
 
 
+ali = "man";
+
+console.log(ali);
+console.log("ing all this man in the norwight");
 
 
+let a = 20;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a += 20;
+a += 30;
+a += 30;
+console.log(a)
 
 
 
