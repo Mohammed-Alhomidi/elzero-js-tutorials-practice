@@ -712,22 +712,23 @@
 // console.log(`Your addresses is ${e}`);
 
 
-ali = "man";
+// ali = "man";
 
-console.log(ali);
-console.log("ing all this man in the norwight");
-
-
-let a = 20;
-
-a += 20;
-a += 30;
-a += 30;
-console.log(a)
+// console.log(ali);
+// console.log("ing all this man in the norwight");
 
 
+// let a = 20;
 
+// a += 20;
+// a += 30;
+// a += 30;
+// console.log(a)
 
+console.log(true);
+console.log(!true);
+
+let 
 
 
 
