@@ -768,16 +768,32 @@
 // mantor (2000 , 2024 , 2012);
 
 
+// let user = {
+//     thename: "Mohammwd",
+//     theage: 19,
+//     country: "Yemen",
+// };
+// console.log(user.thename);
+
+// setTimeout (man, 3000);
+// function man () {
+//     console.log(`Mane is the past in this life`);
+// }
+
+// window.onscroll = function () {
+//     if (window.scrollY >= 50 ) {
+//         console.log(`Scrolling y value is ${window.scrollY}`);
+//     };
+// };
+
+let myfrinds = ["Mohammed", "Ahmed", "Smar", 52, "Amirh", "Mram", 24];
 
 
-
-
-
-
-
-
-
-
+    if (myfrinds, myfrinds[0]) {
+        console.log(true);
+    } else {
+        console.log(false);
+    };
 
 
 
