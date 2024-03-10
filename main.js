@@ -725,13 +725,47 @@
 // a += 30;
 // console.log(a)
 
-console.log(true);
-console.log(!true);
+// let products = ["man","tow","nori","minr","pans","pvns"];
+// let color = ["black","red","blue"];
+// let showcount = 4 ;
+// document.write(`<h1>Show ${showcount} products <h1/>`)
 
-let 
+
+// for ( i = 0 ; i < showcount ; i++) {
+//     document.write(`<div>`);
+//     document.write(`<h3> [${i + 1}] ${products[i]} </h3>`);
+// for (j = 0 ; j < color.length ; j++) {
+//     document.write(`<p>${color[j]}</p>`)
+// };
+//     document.write(`</div>`);
+// };
+
+// function man (userName,Age) {
+// if ( Age > 30 ) {
+//     console.log(`This ap is not you`)
+// } else {
+//     console.log(`Hello ${userName} Your Age is ${Age}`);
+// };
+
+// };
+
+// man("Mohammed" , 65 );
+// man("Ahmed" , 54 );
+// man("Ali" , 19 );
+// man("Abdo" , 32 );
+// man("Norah" , 17 );
 
 
+// function mantor (start , end , stop) {
+//     for (i = start ; i <= end ; i++ ) {
+//         if (i === stop) {
+//             return `tis is end bebe`;                                                                                                                                                                                                                                                               
+//         }
+//         console.log(i);
+//     }
+// }
 
+// mantor (2000 , 2024 , 2012);
 
 
 
