@@ -1,3 +1,42 @@
-body {
-    height: 6000px;
+/* .tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+.tabs li {
+    border-right: 1px solid white;
+    padding: 10px;
+    background: #eee;
+    transition: 0.3s;
+}
+.tabs li.active ,
+.tabs li:hover {
+    background-color: #b25d5d;
+    border-top: 1px solid rgb(50, 6, 243);
+}
+.content {
+    background-color: #b25d5d;
+}
+.content > div {
+    padding: 20px;
+}
+.content > div:not(:first-child) {
+    display: none;
+} */
+
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+  }

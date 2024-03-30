@@ -786,18 +786,144 @@
 //     };
 // };
 
-let myfrinds = ["Mohammed", "Ahmed", "Smar", 52, "Amirh", "Mram", 24];
+// let myfrinds = ["Mohammed", "Ahmed", "Smar", 52, "Amirh", "Mram", 24];
+
+// let check = myfrinds.some(function (i){
+//     return i === "Mram";
+// });
+
+// let check = myfrinds.every((i) => i === "Mram");
+
+// console.log(check);
+
+// var voanv = 9537 ;
+
+// console.log(voanv);
 
 
-    if (myfrinds, myfrinds[0]) {
-        console.log(true);
-    } else {
-        console.log(false);
-    };
+// let mantow = (man1, man2,man3) => man1 * man2 + man3;
+
+// console.log(mantow(12,12,144));
+
+// let test = () => document.getElementById('show').innerHTML = this;
+
+// window.onload = test.bind(window);
+
+// document.getElementById('button').addEventListener('click', test);
+
+/*
+  Regular Expression
+  - Challenge
+*/
+
+// let url1 = 'elzero.org';
+// let url2 = 'http://elzero.org';
+// let url3 = 'https://elzero.org';
+// let url4 = 'https://www.elzero.org';
+// let url5 = 'https://www.elzero.org:8080/articles.php?id=100&cat=topics';
+
+// let re = /^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$/;
+
+// console.log(url1.match(re));
+// console.log(url2.match(re));
+// console.log(url3.match(re));
+// console.log(url4.match(re));
+// console.log(url5.match(re));
+
+// let ditday = new Date();
+
+// console.log(ditday);
+// console.log(ditday.getDay());
+
+// let tabs = document.querySelectorAll(".tabs li");
+// let tabsArray = Array.from(tabs);
+
+// let divs = document.querySelectorAll(".content > div");
+// let divArray = Array.from(divs);
+
+// tabsArray.forEach((ele) => {
+//     ele.addEventListener("click", function (e) {
+//       tabsArray.forEach((ele) => {
+//         ele.classList.remove("active");
+//       });
+//       e.currentTarget.classList.add("active");
+//       divArray.forEach((div) => {
+//         div.style.display = "none";
+//       });
+//       document.querySelector(e.currentTarget.dataset.cont).style.display = "block";
+//     });
+// });
+
+// let man;
+// console.log(man);
+// document.querySelector('h1').style.color = "blue";
+// // document.write('<h1>Hello</h1>').style.color = "yellow";
+// console.error("fuck you");
+
+// window.print('') 
+
+// console.log(typeof man);
+
+// let myname = "Mohammed Mahfouz";
+// let myAge = 19;
+// let myJobe = "Programming";
+
+// console.log(`My Name is ${myname}   My Age is ${++myAge}   My Jope is ${myJobe}`);
 
 
 
+// console.log('8' + +'9');
 
 
 
+// document.getElementById("toggleButton").addEventListener("click", function () {
+//   let contentWrapper = document.getElementById("contentWrapper");
+//   if (contentWrapper.style.display === "none" ) {
+//       contentWrapper.style.display = "block";
+//       document.getElementById("toggleButton").textContent = "اخفا";
+//   } else  {
+//       contentWrapper.style.display = "none";
+//       document.getElementById("toggleButton").textContent = "اضهار";
+//   };
+//   });
+
+// let names = ["ahmed", "osama" , "ali", "slah", "amerh", "mazen", "nor"]
+
+// console.log(names[2]);
+
+
+// function myFunction () {
+//   let age = document.getElementById("age").value;
+//   let trew = age > 18 ? "this is good" : "gis is bad";
+//   document.getElementById("demo").innerHTML = trew + " man";
+// };
+
+
+
+// let day;
+
+// switch (new Date().getDay()) {
+//     case 1:
+//       day = "Saturday";
+//       break;
+//     case 0:
+//         day = "Sunday";
+//         break;
+//     case 1:
+//       day = "Monday";
+//       break;
+//     case 2:
+//       day = "Tuesday";
+//       break;
+//     case 3: 
+//       day = "Wednesday";
+//       break;
+//     case 4:
+//       day = "Thursday";
+//       break;
+//     case 5: 
+//       day = "Friday";
+// };
+
+// document.querySelector("span").innerHTML = d
 
