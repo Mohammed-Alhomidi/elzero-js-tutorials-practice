@@ -925,5 +925,5 @@
 //       day = "Friday";
 // };
 
-// document.querySelector("span").innerHTML = d
+// document.querySelector("span").innerHTML = d   
 
