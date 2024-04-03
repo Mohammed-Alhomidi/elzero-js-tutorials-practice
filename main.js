@@ -4,14 +4,10 @@
 // document.querySelector("h1").style.color = "red"; };
 // window.alert("20+20=30");
 
-
 // console.table(["dfuid", "fsdkgbh", "dksfj"])
-
 
 // console.log("%cElzero %cWeb %cSchool", "font-size: 40px; color: red;", "font-size: 40px; color: green; font-weight: bold;",
 // "font-size: 40px; color: white; background-color: blue;")
-
-
 
 // console.group();
 // console.log("bac #2");
@@ -39,23 +35,16 @@
 // var myname = "mohammed";
 // console.log ("Hello " + myname);
 
-
-
 // var userName = 13;
 // var userName = 12;
 // var userName = 10;
 // console.log(userName);
 
-
-
 // let man = 14;
 // console.log(man);
 
-
-
 // const nane = 1;
 // console.log(nane);
-
 
 // console.log("man'man'");
 
@@ -67,8 +56,6 @@
 
 // console.log("\\makn")
 
-
-
 // console.log( typeof ("Mohammed"));
 // console.log( typeof 569);
 // console.log( typeof [ "snm" , "skjh" , "kj" ]);
@@ -76,8 +63,7 @@
 // console.log( typeof true );
 // console.log( typeof false );
 
-
-// var man = "mohammed" , ans = 15; 
+// var man = "mohammed" , ans = 15;
 
 // console.log (man);
 // console.log (ans);
@@ -89,17 +75,13 @@
 
 // console.log("ksjd\n jdksjbjdf\nsjkdfb")
 
-
-
 // var a = "We love";
 // var b = "javascript"
 // var c = "And";
 // var d = "programming";
 
-
 // console.log (a + " " + b + " \"\" " + c + " " + d );
 // console.log (`${a} ${b} \\ "" ${c} ${d}`)
-
 
 // let pan = "Mohammed";
 // let pans = " kjsu uus nsjk";
@@ -114,12 +96,7 @@
 // </div>
 // `;
 
-
-
-
-
 // document.write(part);
-
 
 // let the_p = "Hello Elzero", the_l = "Elzero Web School", the_s = "25/10";
 
@@ -149,7 +126,6 @@
 
 // document.write (part);
 
-
 // let Number_One = 10 ;
 // let Number_Two = 20 ;
 
@@ -158,16 +134,13 @@
 // console.log (`${Number_One}${Number_Two}`)
 // console.log ( typeof(`${Number_One}${Number_Two}`))
 
-
 // console.log ( Number_One + "\n" + Number_Two)
-
 
 // console.log ( `${Number_One}
 // ${Number_Two}`)
 
 // console.log( elzero.innerHTML ); // object
 // console.log(typeof elzero); // object
-
 
 // console.log (`\I'm In
 // \\\\
@@ -176,21 +149,15 @@
 // \\\"\"\"\\\"\"\"
 // \"\"JavaScript\"\"\``);
 
-
-
 // let a = 21;
 // let b = 20;
 
 // console.log(`_${a}_${a}${b}_${a}${b}_${a}${b}_${b}_`);
 
-
-
 // _21_2021_2021_2021_20_
-
 
 // Replace ? With Arithmetic Operators
 // console.log(10 + 20 + 15 - 3 + 190 - 10  400); // 0
-
 
 // console.log (10 + 20 );
 // console.log ( 10 + "mohammed");
@@ -199,7 +166,6 @@
 // console.log ( 10 - "mohammed");
 
 // console.log (typeof NaN);
-
 
 // console.log (10 * 20 );
 // console.log ( 10 * "mohammed")
@@ -210,10 +176,8 @@
 // console.log ( 20 % 3 );
 // console.log (10 % 20 );
 
-
 // console.log(2 ** 2);
 // console.log(2 * 2 * 2 * 2);
-
 
 // var man = 1 ;
 // console.log (--man);
@@ -221,8 +185,6 @@
 // console.log (++man);
 // console.log (man++);
 // console.log (man)
-
-
 
 // console.log(+100);
 // console.log(+"100");
@@ -236,13 +198,9 @@
 // console.log (-true)
 // console.log (-false)
 
-
 // var a = "10" , b = 20 , c = true ;
 
-
 // console.log (a - -b);
-
-
 
 // let a = 10 ;
 
@@ -250,7 +208,7 @@
 
 // a = a + 70;
 
-// a += 100;   
+// a += 100;
 
 // // a = a - 50;
 // // a -= 50;
@@ -258,21 +216,15 @@
 // // a = a / 50 ;
 // // a /= 50;
 
-
 // console.log(a);
-
-
-
 
 // let d = "-100" , e ="20" , f = 30 , g = true ;
 
-
-// console.log(-d * +e) // 2000 
-// console.log( ++e * ++g + -d + ++f) // 173 
+// console.log(-d * +e) // 2000
+// console.log( ++e * ++g + -d + ++f) // 173
 
 // Replace ? With Arithmetic Operators
 // console.log(10 % 20 % 15 % 2 % 190 % 10 % 400) ; // 0
-
 
 // let num = 3;
 
@@ -294,8 +246,6 @@
 // // Solution Six
 // console.log(); // 6
 
-
-
 // console.log (1000000);
 // console.log (1_000_000);
 // console.log (1e6);
@@ -307,7 +257,6 @@
 // console.log(Number.MAX_SAFE_INTEGER + 57893499057345)
 
 // console.log (Number.MAX_VALUE + 37934799568)
-
 
 // console.log ((10000).toString());
 // console.log (10000..toString());
@@ -336,11 +285,9 @@
 // console.log (Math.pow(2 ,4));
 // console.log (Math.pow(2 ,8));
 
-
 // console.log (Math.random());
 
 // console.log (Math.trunc(75.578))
-
 
 // let man = "MOhammed";
 
@@ -349,10 +296,7 @@
 
 // console.log (man.charAt(7))
 
-
 // console.log (man.length)
-
-
 
 // document.write("<h1>Elzero</h1>");
 // document.querySelector("h1").style.color = "red";
@@ -398,12 +342,8 @@
 // let man = "I am the";
 // let mna = "Number One";
 
-
-
 // console.log(man +" "+ mna);
 // console.log(`${man} ${mna}`);
-
-
 
 // let a = "10";
 // let b = 20;
@@ -413,14 +353,11 @@
 
 // b /= 20 ;
 
-
 // console.log(b);
 
 // console.log((100).toString())
 // console.log(100..toString())
 // console.log(100.6326.toFixed(3))
-
-
 
 // // Examples
 // console.log(1_000_000); // 100000
@@ -439,12 +376,10 @@
 // console.log(); // 100000
 // console.log(); // 100000
 
-
 // let man = "  Ahmed  ";
 // console.log(man[1])
 // console.log(man.charAt(1))
 // console.log(man.length)
-
 
 // console.log(a.indexOf("o"));
 
@@ -452,29 +387,23 @@
 
 // console.log(a.slice(-6));
 
-
 // console.log(a.repeat(3));
 // console.log(a.split(" ",2))
 
 // let a = "Elzero Web school";
 // console.log(a.length)
 
-
 // console.log(a.substring(0,6));
 // console.log(a.substring(a.length -1));
-
 
 // console.log(a.substr(0,6));
 // console.log(a.includes("Web"));
 // console.log(a.startsWith("Web"));
 // console.log(a.charAt(2).repeat(8));
 
-
-
 // console.log(10 != "10");
 // console.log("amnd" != 10);
 // console.log("10" != 12);
-
 
 // console.log(100 == "100"); // true
 // console.log(100 < 1000); // true
@@ -524,7 +453,6 @@
 
 // let day = 1;
 
-
 // switch (day){
 //     case 1:
 //         console.log("Satrdy");
@@ -536,7 +464,7 @@
 //     case 3:
 //         console.log("mondye");
 //         break;
-//     default: 
+//     default:
 //     console.log("ande finde")
 //     break;
 // }
@@ -556,10 +484,8 @@
 // console.log(myfrinds.indexOf("Ahmed", 2));
 // console.log(myfrinds.includes("Ahmed"));
 
-
 // let myfrinds = [10 , "Mohammed" , "Ahmed" , "90", -22 , -12 , 15 , 636 , "Mnal"];
 // console.log(myfrinds);
-
 
 // console.log(myfrinds.sort());
 // console.log(myfrinds.reverse());
@@ -589,8 +515,6 @@
 // }while(false);
 // console.log(i);
 
-
-
 // function sayhrllo(userName){
 //     console.log(`Hello ${userName}`);
 // }
@@ -608,15 +532,13 @@
 //     sayHello: function () {
 //         return `Hello`;
 //     },
-// }; 
+// };
 
 // console.log(user.theName);
 // console.log(user.theAge);
 // console.log(user.sayHello());
 
 // let available = true;
-
-
 
 // let user = {
 //     name: "Mohammed",
@@ -639,7 +561,6 @@
 //     }
 // };
 
-
 // console.log(user.name);
 // console.log(user.age);
 // console.log(user.skills);
@@ -653,7 +574,6 @@
 
 // console.log(user.checkAv());
 
-
 // let user = new Object({
 
 // });
@@ -662,24 +582,19 @@
 // user.age = 19 ;
 // user.name = "mohammed";
 
-
 // let man = document.querySelector("p");
 // man.innerHTML = "Man is am <span>sex porn<span/> pan"
 // console.log(man);
 
-
 // man.textContent = "Man is am <span>sex porn<span/> pan"
 // console.log(man);
-
 
 // let myfrinds = ["Mohammed", "Ahamed", "Ali", ["Sara", "Norah",["Amerh", "Maha"]]];
 
 // let [ , , ,[a, ,[,b]]] = myfrinds;
 
-
 // console.log(a);
 // console.log(b);
-
 
 // let book = "video";
 // let video = "book";
@@ -711,12 +626,10 @@
 // console.log(`Your Skills is  ${one} , ${tow} , ${three}`);
 // console.log(`Your addresses is ${e}`);
 
-
 // ali = "man";
 
 // console.log(ali);
 // console.log("ing all this man in the norwight");
-
 
 // let a = 20;
 
@@ -729,7 +642,6 @@
 // let color = ["black","red","blue"];
 // let showcount = 4 ;
 // document.write(`<h1>Show ${showcount} products <h1/>`)
-
 
 // for ( i = 0 ; i < showcount ; i++) {
 //     document.write(`<div>`);
@@ -755,18 +667,16 @@
 // man("Abdo" , 32 );
 // man("Norah" , 17 );
 
-
 // function mantor (start , end , stop) {
 //     for (i = start ; i <= end ; i++ ) {
 //         if (i === stop) {
-//             return `tis is end bebe`;                                                                                                                                                                                                                                                               
+//             return `tis is end bebe`;
 //         }
 //         console.log(i);
 //     }
 // }
 
 // mantor (2000 , 2024 , 2012);
-
 
 // let user = {
 //     thename: "Mohammwd",
@@ -799,7 +709,6 @@
 // var voanv = 9537 ;
 
 // console.log(voanv);
-
 
 // let mantow = (man1, man2,man3) => man1 * man2 + man3;
 
@@ -860,7 +769,7 @@
 // // document.write('<h1>Hello</h1>').style.color = "yellow";
 // console.error("fuck you");
 
-// window.print('') 
+// window.print('')
 
 // console.log(typeof man);
 
@@ -870,11 +779,7 @@
 
 // console.log(`My Name is ${myname}   My Age is ${++myAge}   My Jope is ${myJobe}`);
 
-
-
 // console.log('8' + +'9');
-
-
 
 // document.getElementById("toggleButton").addEventListener("click", function () {
 //   let contentWrapper = document.getElementById("contentWrapper");
@@ -891,14 +796,11 @@
 
 // console.log(names[2]);
 
-
 // function myFunction () {
 //   let age = document.getElementById("age").value;
 //   let trew = age > 18 ? "this is good" : "gis is bad";
 //   document.getElementById("demo").innerHTML = trew + " man";
 // };
-
-
 
 // let day;
 
@@ -915,23 +817,119 @@
 //     case 2:
 //       day = "Tuesday";
 //       break;
-//     case 3: 
+//     case 3:
 //       day = "Wednesday";
 //       break;
 //     case 4:
 //       day = "Thursday";
 //       break;
-//     case 5: 
+//     case 5:
 //       day = "Friday";
 // };
 
-// document.querySelector("span").innerHTML = d   
+// document.querySelector("span").innerHTML = d
+
+let cars = ["BMW", "MERS", "FORD"];
+let noaeBMW = ["pm1" , "pm2" , "pm3"];
+let noaeMERS = ["mer1" , "mer2" , "mer3"];
+let noaeFORD = ["for1" , "for2" , "for3"];
+let model = [2022, 2023, 2024];
+let colors = ["red", "black", "wight"]
 
 
 
-let names = ["ahmed", "osama" , "ali", "slah", "amerh", "mazen", "nor"]
+for(i = 0; i < cars.length ; i++) {
+  console.log(`car: ${cars[i]}`)
 
-for (let i = names.length; i < names.length; i--) {
-    console.log(names[i]);
-}
+let man;
+
+if (cars[i] === cars[0] ) {
+  man = noaeBMW;
+  };
+  if (cars[i] === cars[1]) {
+    man = noaeMERS;
+    };
+    if (cars[i] === cars[2]) {
+      man = noaeFORD;
+      };
+
+  
+  for (j = 0; j < man.length; j++) {
+    console.log(`noaeBMW: ${man[j]}`)
+
+    for (k = 0; k < model.length; k++) {
+      console.log(`model: ${model[k]}`)
+
+      for (h = 0; h < colors.length; h++) {
+          console.log(`color: ${colors[h]}`)
+      };
+    };
+  };
+  console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+};
+
+
+
+
+
+// let cars = ["BMW", "MERS", "FORD"];
+// let parts = {
+//   BMW: ["pm1", "pm2", "pm3"],
+//   MERS: ["mer1", "mer2", "mer3"],
+//   FORD: ["for1", "for2", "for3"]
+// };
+// let model = [2022, 2023, 2024];
+// let colors = ["red", "black", "white"];
+
+// for (let i = 0; i < cars.length; i++) {
+//   console.log("$$$$$$$$$$$$$$$$$$$$")
+//   console.log(`Car: ${cars[i]}`);
+//   let carParts = parts[cars[i]];
+//   for (let j = 0; j < carParts.length; j++) {
+//     console.log(`  Part: ${carParts[j]}`);
+
+//     for (let k = 0; k < model.length; k++) {
+//       console.log(`    Model: ${model[k]}`);
+
+//       for (let h = 0; h < colors.length; h++) {
+//         console.log(`      Color: ${colors[h]}`);
+//       }
+//     }
+//   }
+// }
+
+// let cars = ["BMW", "MERS", "FORD"];
+// let noaeBMW = ["pm1", "pm2", "pm3"];
+// let noaeMERS = ["mer1", "mer2", "mer3"];
+// let noaeFORD = ["for1", "for2", "for3"];
+// let model = [2022, 2023, 2024];
+// let colors = ["red", "black", "white"];
+
+// for (let i = 0; i < cars.length; i++) {
+//   console.log(`Car: ${cars[i]}`);
+
+//   let carParts;
+//   if (cars[i] === "BMW") {
+//     carParts = noaeBMW;
+//   } else if (cars[i] === "MERS") {
+//     carParts = noaeMERS;
+//   } else if (cars[i] === "FORD") {
+//     carParts = noaeFORD;
+//   }
+
+//   for (let j = 0; j < carParts.length; j++) {
+//     console.log(`  Part: ${carParts[j]}`);
+
+//     for (let k = 0; k < model.length; k++) {
+//       console.log(`    Model: ${model[k]}`);
+
+//       for (let h = 0; h < colors.length; h++) {
+//         console.log(`      Color: ${colors[h]}`);
+//       }
+//     }
+//   }
+// }
+
+
+
 
