@@ -929,10 +929,9 @@
 
 
 
+let names = ["ahmed", "osama" , "ali", "slah", "amerh", "mazen", "nor"]
 
-for (let i = 0 ; i < 100 ; i+= 1) {
-   console.log("Hello");
-   console.log("warld");
-};
-
+for (let i = names.length; i < names.length; i--) {
+    console.log(names[i]);
+}
 
