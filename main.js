@@ -829,44 +829,44 @@
 
 // document.querySelector("span").innerHTML = d
 
-let cars = ["BMW", "MERS", "FORD"];
-let noaeBMW = ["pm1" , "pm2" , "pm3"];
-let noaeMERS = ["mer1" , "mer2" , "mer3"];
-let noaeFORD = ["for1" , "for2" , "for3"];
-let model = [2022, 2023, 2024];
-let colors = ["red", "black", "wight"]
+// let cars = ["BMW", "MERS", "FORD"];/
+// let noaeBMW = ["pm1" , "pm2" , "pm3"];
+// let noaeMERS = ["mer1" , "mer2" , "mer3"];
+// let noaeFORD = ["for1" , "for2" , "for3"];
+// let model = [2022, 2023, 2024];
+// let colors = ["red", "black", "wight"]
 
 
 
-for(i = 0; i < cars.length ; i++) {
-  console.log(`car: ${cars[i]}`)
+// for(i = 0; i < cars.length ; i++) {
+//   console.log(`car: ${cars[i]}`)
 
-let man;
+// let man;
 
-if (cars[i] === cars[0] ) {
-  man = noaeBMW;
-  };
-  if (cars[i] === cars[1]) {
-    man = noaeMERS;
-    };
-    if (cars[i] === cars[2]) {
-      man = noaeFORD;
-      };
+// if (cars[i] === cars[0] ) {
+//   man = noaeBMW;
+//   };
+//   if (cars[i] === cars[1]) {
+//     man = noaeMERS;
+//     };
+//     if (cars[i] === cars[2]) {
+//       man = noaeFORD;
+//       };
 
   
-  for (j = 0; j < man.length; j++) {
-    console.log(`noaeBMW: ${man[j]}`)
+//   for (j = 0; j < man.length; j++) {
+//     console.log(`noaeBMW: ${man[j]}`)
 
-    for (k = 0; k < model.length; k++) {
-      console.log(`model: ${model[k]}`)
+//     for (k = 0; k < model.length; k++) {
+//       console.log(`model: ${model[k]}`)
 
-      for (h = 0; h < colors.length; h++) {
-          console.log(`color: ${colors[h]}`)
-      };
-    };
-  };
-  console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-};
+//       for (h = 0; h < colors.length; h++) {
+//           console.log(`color: ${colors[h]}`)
+//       };
+//     };
+//   };
+//   console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+// };
 
 
 
@@ -898,7 +898,6 @@ if (cars[i] === cars[0] ) {
 //   }
 // }
 
-// let cars = ["BMW", "MERS", "FORD"];
 // let noaeBMW = ["pm1", "pm2", "pm3"];
 // let noaeMERS = ["mer1", "mer2", "mer3"];
 // let noaeFORD = ["for1", "for2", "for3"];
@@ -906,30 +905,36 @@ if (cars[i] === cars[0] ) {
 // let colors = ["red", "black", "white"];
 
 // for (let i = 0; i < cars.length; i++) {
-//   console.log(`Car: ${cars[i]}`);
-
-//   let carParts;
-//   if (cars[i] === "BMW") {
-//     carParts = noaeBMW;
-//   } else if (cars[i] === "MERS") {
-//     carParts = noaeMERS;
-//   } else if (cars[i] === "FORD") {
-//     carParts = noaeFORD;
-//   }
-
-//   for (let j = 0; j < carParts.length; j++) {
-//     console.log(`  Part: ${carParts[j]}`);
-
-//     for (let k = 0; k < model.length; k++) {
-//       console.log(`    Model: ${model[k]}`);
-
-//       for (let h = 0; h < colors.length; h++) {
-//         console.log(`      Color: ${colors[h]}`);
-//       }
-//     }
-//   }
-// }
-
-
-
-
+  //   console.log(`Car: ${cars[i]}`);
+  
+  //   let carParts;
+  //   if (cars[i] === "BMW") {
+    //     carParts = noaeBMW;
+    //   } else if (cars[i] === "MERS") {
+      //     carParts = noaeMERS;
+      //   } else if (cars[i] === "FORD") {
+        //     carParts = noaeFORD;
+        //   }
+        
+        //   for (let j = 0; j < carParts.length; j++) {
+          //     console.log(`  Part: ${carParts[j]}`);
+          
+          //     for (let k = 0; k < model.length; k++) {
+            //       console.log(`    Model: ${model[k]}`);
+            
+            //       for (let h = 0; h < colors.length; h++) {
+              //         console.log(`      Color: ${colors[h]}`);
+              //       }
+              //     }
+              //   }
+              // }
+              
+              
+    let cars = ["BMW", "MERS", "FORD",7 ,44 , 848 ,-19 ,"fksjbj" , "uiwrlfaiud"];
+              
+        for(i = 0; i < cars.length; i++) {
+            if (typeof cars[i] != "number") {
+              continue;
+            }
+            console.log(cars[i]);
+          };
