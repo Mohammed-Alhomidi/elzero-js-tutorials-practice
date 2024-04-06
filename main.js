@@ -952,7 +952,7 @@ mani(247.3, 47, 34);
 mani(47878, 893489 ,8);
 mani(89, 4, 94);
 
-const fruits = new Map([
+const fruits = new Map  ([
   ["apples", 50],
   ["bananas", 300],
   ["oranges", 200]
