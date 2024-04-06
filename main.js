@@ -872,7 +872,7 @@
 
 
 
-// let cars = ["BMW", "MERS", "FORD"];
+// let cars = ["BMW", "FORD", "MERS"];
 // let parts = {
 //   BMW: ["pm1", "pm2", "pm3"],
 //   MERS: ["mer1", "mer2", "mer3"],
@@ -884,7 +884,9 @@
 // for (let i = 0; i < cars.length; i++) {
 //   console.log("$$$$$$$$$$$$$$$$$$$$")
 //   console.log(`Car: ${cars[i]}`);
+
 //   let carParts = parts[cars[i]];
+
 //   for (let j = 0; j < carParts.length; j++) {
 //     console.log(`  Part: ${carParts[j]}`);
 
@@ -930,11 +932,28 @@
               // }
               
               
-    let cars = ["BMW", "MERS", "FORD",7 ,44 , 848 ,-19 ,"fksjbj" , "uiwrlfaiud"];
+    // let cars = ["BMW", "MERS", "FORD",7 ,44 , 848 ,-19 ,"fksjbj" , "uiwrlfaiud"];
               
-        for(i = 0; i < cars.length; i++) {
-            if (typeof cars[i] != "number") {
-              continue;
-            }
-            console.log(cars[i]);
-          };
+    //     for(i = 0; i < cars.length; i++) {
+    //         if (typeof cars[i] != "number") {
+    //           continue;
+    //         }
+    //         console.log(cars[i]);
+    //       };
+
+function mani(par, mar , sar) {
+    let parm = par + mar + sar;
+    console.log(parm);
+}
+
+mani(100 ,12.5 , +"78");
+mani(18.3, 378 ,37);
+mani(247.3, 47, 34);
+mani(47878, 893489 ,8);
+mani(89, 4, 94);
+
+const fruits = new Map([
+  ["apples", 50],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
