@@ -93,22 +93,42 @@
 
 <!-- <p id="demo">The new day is : <span></span></p> -->
 
-<h2>JavaScript For Loop</h2>
+<!-- <div class="man">
+  <div class="man1 active" id="activback">sdjkfks</div>
+  <div class="man1" id="activback">sdjkfks</div>
+  <div class="man1" id="activback">sdjkfks</div>
+</div> -->
 
-<p id="demo"></p>
+<ul class="tabs">
+  <li id="activback" class="active">Tab 1</li>
+  <li id="activback" >Tab 2</li>
+  <li id="activback" >Tab 3</li>
+</ul>
+x
 
-<!-- <script>
-const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+<script>
+let tabs = document.getElementById("activback");
+let tabsArray = Array.from(tabs);
 
 
-for (let i = 0; i < cars.length; i++) {
-  
-  console.log(cars[i]); 
-}
+// console.log(tabsArray);
 
-</script> -->
+tabsArray.forEach((ele) => {
+  ele.addEventListener("click", function (e) {
+    // console.log(ele);
+    tabsArray.forEach((ele) => {
+      ele.classList.remove("active");
+    });
+    e.currentTarget.classList.add("active");
+  });
+});
+</script>
 
-<br>
+
+
+
+
 
     <script src="/main.js"></script>
 </body>

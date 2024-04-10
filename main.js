@@ -941,19 +941,77 @@
     //         console.log(cars[i]);
     //       };
 
-function mani(par, mar , sar) {
-    let parm = par + mar + sar;
-    console.log(parm);
-}
+// function mani(par, mar) {
+//     return par * mar;
+// }
+// let ai = mani(188934, 12);
 
-mani(100 ,12.5 , +"78");
-mani(18.3, 378 ,37);
-mani(247.3, 47, 34);
-mani(47878, 893489 ,8);
-mani(89, 4, 94);
+// console.log(ai);
+// mani(100 ,12.5 , +"78");
+// mani(18.3, 378 ,37);
+// mani(247.3, 47, 34);
+// mani(47878, 893489 ,8);
+// mani(89, 4, 94);
 
-const fruits = new Map  ([
-  ["apples", 50],
-  ["bananas", 300],
-  ["oranges", 200]
-]);
+// const fruits = new Map  ([
+//   ["apples", 50],
+//   ["bananas", 300],
+//   ["oranges", 200]
+// ]);
+
+
+// function Ageinday (age) {
+//   return  age * 360;
+// }
+// let v = Ageinday(19);
+// console.log(v);
+
+// function Ageinhuor (age) {
+//   return v * 24;
+// }
+// let a = Ageinhuor();
+// let x = false;
+ 
+// // console.log(a);
+
+// let thehasaba = {
+//   mwan: "dsijf", 
+//   mean: "jkdfjkfd", 
+//   mane: "sdsdf", 
+//   fjsak: x, 
+//   fjvk: 58959589, 
+//   fsajk: 589, 
+//   frjk: 9, 
+//   dknf: ["fsdo"],
+//   skdjkdb: ["sduflsdu", "ldfn" ,"Passing"],
+//   jsdbkf: {
+//     jsdalk: "a;f",
+//     asldubis: "adkjnf",
+//     dfkhbk: {
+//       afajk: "adkbj",
+//       sdfuhlil: 8934,
+//     },
+//   },
+//   mano:function (el) {
+//     if (thehasaba.fjsak === true) {
+//       return "Hello Goood";
+//     }else {
+//       return "Fuke ypue mather fauker";
+//     };
+//   },
+// };
+// console.log(thehasaba); document.getElementById
+
+// console.log(thehasaba['mano']());
+
+
+// let man = (...number) => {
+//   let san = 0;
+//   for (let i = 0 ; i < number.length ; i++) {
+//     san += number[i];
+//   }
+//   console.log(san);
+// }
+
+
+// man(9,1,10,36,4782478);
