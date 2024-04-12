@@ -1015,3 +1015,12 @@
 
 
 // man(9,1,10,36,4782478);
+
+
+let lik = {};
+
+lik.man = "kfjd";
+lik.mand = "kfjdsd";
+lik.mansd = "kfjdf";
+
+console.log(lik);
