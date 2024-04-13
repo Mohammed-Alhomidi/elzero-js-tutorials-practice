@@ -1017,10 +1017,110 @@
 // man(9,1,10,36,4782478);
 
 
-let lik = {};
+// let lik = {};
 
-lik.man = "kfjd";
-lik.mand = "kfjdsd";
-lik.mansd = "kfjdf";
+// lik.man = "kfjd";
+// lik.mand = "kfjdsd";
+// lik.mansd = "kfjdf";
 
-console.log(lik);
+// console.log(lik);
+
+let job = "Support";
+let salary = 0;
+
+// if (job === "Manager") {
+//   salary = 8000;
+// } else if (job === "IT" || job === "Support") {
+//   salary = 6000;
+// } else if (job === "Developer" || job === "Designer") {
+//   salary = 7000;
+// } else {
+//   salary = 4000;
+// };
+// console.log(`For your jon ${job} your salary is ${salary}`);
+
+
+// switch (job) {
+//   case "Manager" :
+//     salary = 8000;
+//     break;
+//   case "IT" :
+//   case "Support" :
+//     salary = 6000;
+//     break;
+//   case "Developer" :
+//   case "Designer" :
+//     salary = 7000;
+//     break;
+//     default: 
+//     salary = 4000;
+// };
+
+// console.log(`For your jon ${job} your salary is ${salary}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let holidays = 9;
+let money = 8000;
+
+// switch (holidays) {
+//   case 0:
+//     money = 5000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 1:
+//   case 2:
+//     money = 3000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 3:
+//     money = 2000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 4:
+//     money = 1000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 5:
+//     money = 0;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   default:
+//     money = 0;
+//     console.log(`My Money is ${money}`);
+// };
+
+
+// if (holidays === 0) {
+//   money = 5000;
+// } else if (holidays === 1  || holidays === 2) {
+//   money = 3500;
+// } else {
+//   money = 400;
+// }
+
+// console.log(`For your holidays ${holidays} your money is ${money}`);
+
+
+
+
+let fruits = ['apple', 'banana', 'orange'];
+let lastFruit = fruits.splice(0 , 1);
+
+console.log(fruits);
+
