@@ -1,7 +1,7 @@
 // // Wait The Window To Load
 // window.onload = function () {
 // // Single Line Comment
-// document.querySelector("h1").style.color = "red"; };
+// document.querySelector(`h1").style.color = "red"; };
 // window.alert("20+20=30");
 
 // console.table(["dfuid", "fsdkgbh", "dksfj"])
@@ -1025,8 +1025,6 @@
 
 // console.log(lik);
 
-let job = "Support";
-let salary = 0;
 
 // if (job === "Manager") {
 //   salary = 8000;
@@ -1056,27 +1054,10 @@ let salary = 0;
 //     salary = 4000;
 // };
 
-// console.log(`For your jon ${job} your salary is ${salary}`);
+// console.log(`For your jon ${job} your salary is ${salary}`)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-let holidays = 9;
-let money = 8000;
+// let holidays = 9;
+// let money = 8000;
 
 // switch (holidays) {
 //   case 0:
@@ -1115,12 +1096,120 @@ let money = 8000;
 // }
 
 // console.log(`For your holidays ${holidays} your money is ${money}`);
+// function salary (userName, age) {
+//   if (age < 20) {
+//     console.log("This App is not for you");
+//   } else {
+//     console.log(`Hello ${userName} your age is ${age} and wellcome`);
+//   };
+// };
+
+// salary("Mohammed",19);
+// salary("Ahmmed",37);
+// salary("Ali",25);
+// salary("Nora",24);
+// salary("Sayd",24);
+// salary("Amerh",19);
+
+// function calc (name , age) {
+//   if (age === undefined) {
+//     age = 27;
+//   };
+//   console.log(`Heloo ${name} your age is ${age}`);
+// };
+
+// calc("Ahmed");
 
 
+// function calc (...number) {
+//   let rsalt = 0;
+//   for (let i = 0; i < number.length; i++) {
+//   rsalt += number[i];
+//   }
+//   return rsalt;
+// }
+
+// console.log(calc(10,10,30,10,10,30,10,10,30,10,10,30));
+
+  // function shaowinfo (n = "un", a = "un" , h = 0 , show = "yes", ...skills)  {
+  //   document.write(`<div>`);
+  //   document.write(`<h2>Wellcome: ${n}</h2>`)
+  //   document.write(`<p>your age is: ${a} </p>`)
+  //   document.write(`<p>your hour is: $${h} </p>`)
+  //         if (show === "yes") {
+  //           if (skills.length > 0) {
+  //             document.write(`<p>your skills is: ${skills.join(" |   |   ")} </p>`)
+  //           }else {
+  //             document.write(`<p>your skills is: ناقص </p>`);
+  //           };
+  //         }else {
+  //           document.write(`<p>your skills is: hedding </p>`);
+  //         }
+  //   document.write(`</div>`);
+  // };
+
+  // shaowinfo("Mohammed",19,10,"yes","Html","css","js");
+
+/*
+  Function - Random Argument Challenge
+  ====================================
+  Create Function showDetails
+  Function Accept 3 Parameters [a, b, c]
+  Data Types For Info Is
+  - String => Name
+  - Number => Age
+  - Boolean => Status
+  Argument Is Random
+  Data Is Not Sorted Output Depend On Data Types
+  - Use Ternary Conditional Operator
+*/
+
+//   function showDetails(n,a,h) {
+//     let name;
+//     let age;
+//     let hour;
+//     if (typeof n === "string") {
+//       name = n;
+//     } else if (typeof n === "number") {
+//       age = n;
+//     } else {
+//       hour = n;
+//     };
+//     if (typeof a === "string") {
+//       name = a;
+//     } else if (typeof a === "number") {
+//       age = a;
+//     } else {
+//       hour = a;
+//     };
+//     if (typeof h === "string") {
+//       name = h;
+//     } else if (typeof h === "number") {
+//       age = h;
+//     } else {
+//       hour = h;
+//     };
+//     if (hour === true) {
+//       hour = "You Are Available For Hire";
+//     } else {
+//       hour = "You Are Not Available For Hire";
+//     };
+//     console.log(`Hello ${name}, Your Age Is ${age}, ${hour}`)
+//   };
+  
+  
+// showDetails("Osama", 38, true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// showDetails(38, "Osama", true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// showDetails(true, 38, "Osama"); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// showDetails(false, "Osama", 38); // "Hello Osama, Your Age Is 38, You Are Not Available For Hire"
+
+function calc (man1,man2) {
+    return man1 + man2 ;
+};
 
 
-let fruits = ['apple', 'banana', 'orange'];
-let lastFruit = fruits.splice(0 , 1);
+document.getElementById("show").onclick = function () {
+  console.log(calc(13,13));
+};
 
-console.log(fruits);
 
