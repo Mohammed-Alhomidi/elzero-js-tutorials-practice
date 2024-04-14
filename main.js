@@ -1193,7 +1193,7 @@
 //       hour = "You Are Available For Hire";
 //     } else {
 //       hour = "You Are Not Available For Hire";
-//     };
+//     };  
 //     console.log(`Hello ${name}, Your Age Is ${age}, ${hour}`)
 //   };
   
