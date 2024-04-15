@@ -1281,10 +1281,10 @@
 // console.log(add);
 // console.log(parseInt('5'));
 // console.log(typeof '5');
-let swappingCases = "Elze43ro48";
-let add = swappingCases.split("").map((ele) => {
-  return  isNaN(parseInt(ele)) ? "" : ele;
-}).join("");
+// let swappingCases = "Elze43ro48";
+// let add = swappingCases.split("").map((ele) => {
+//   return  isNaN(parseInt(ele)) ? "" : ele;
+// }).join("");
 
 // console.log(swappingCases);
 
@@ -1292,4 +1292,24 @@ let add = swappingCases.split("").map((ele) => {
 //   return -e;
 // });
 
+// let swappingCases = "A13BS2ZX";
+
+// let add = swappingCases.split("").filter((ele) => {
+//   return !isNaN(parseInt(ele));
+// }).map((ele) => {
+//   return ele * ele;
+// });
+
+let myNumbers = ["nffns","sdajk","asdasdf","sffsdfd","asdfsfdfe","waffffffs","fhiwikf","fasdj,,k","asdfasdf","asfdfasdfsd","asdfsdfasdfsd","sdfsdfsdfsd","erohjlifuhi","sdfsdfdfds"];
+
+let add = myNumbers.reduce((acc, current) => {
+  return acc.length > current.length ? acc : current;
+});
+
 console.log(add);
+// let add = swappingCases.split("").map((ele) => {
+//   return  isNaN(parseInt(ele)) ? "" : ele;
+// }).join("");
+
+
+
