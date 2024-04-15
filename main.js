@@ -1203,13 +1203,93 @@
 // showDetails(true, 38, "Osama"); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
 // showDetails(false, "Osama", 38); // "Hello Osama, Your Age Is 38, You Are Not Available For Hire"
 
-function calc (man1,man2) {
-    return man1 + man2 ;
-};
+// function calc (...man1) {
+//   let mans = 0;
+//     for (i = 0; i < man1.length ; i++) {
+//       mans += man1[i];
+//     };
+//     return mans;
+// };
+// document.getElementById("show").onclick = function () {
+//   console.log(calc(13,2,16,1,1,1,891,18,1,18,16,15,14,13,12,11,1,1,1,1,1,1,1));
+//   console.log(calc(13,2,16,1,1,1,18,1,1,1,1,1,1,1));
+//   console.log(calc(13,2,16,1,1,1,18,1,1,1,1,1,1,1));
+//   console.log(calc(13,2,16,1,1,1,18,1,1,1,1,1,1,1));
+//   console.log(calc(13,2,16,1,1,1,18,1,1,1,1,1,1,1));
+//   console.log(calc(13,2,16,1,1,1,18,1,1,1,1,1,1,1));
+// };
+
+// sayHello = (firstname , lastname) => {
+//   let shaowinfo = `Hello `;
+//   return shaowinfo + firstname + lastname;
+// }
+// console.log(sayHello("Mohammed ","Mahfouz "));
+// console.log(sayHello("Mahfouz ","Mahfouz "));
+// console.log(sayHello("Mahfouz ","Mohammed "));
+
+/*
+  Function Arrow Challenges
+*/
+
+// [1] One Statement In Function
+// [2] Convert To Arrow Function
+// [3] Print The Output [Arguments May Change]
+
+// let names = function (...man1) {
+//   // Parameter ?
+//   
+// };
+// let names = (...man1) => `String [${man1.join("], [")}] => Done !`;
 
 
-document.getElementById("show").onclick = function () {
-  console.log(calc(13,13));
-};
+// console.log(names("Osama", "Mohamed", "Ali", "Ibrahim"));
+// // String [Osama], [Mohamed], [Ali], [Ibrahim] => Done !
 
 
+
+
+
+
+/* ================================= */
+
+// [1] Replace ??? In Return Statement To Get The Output
+// [2] Create The Same Function With Regular Syntax
+// [3] Use Array Inside The Arguments To Get The Output
+
+// let myNumbers = [20, 50, 10, 60];
+
+// let calc = (one, two, ...nums) => one + two + +nums;
+
+// console.log(calc(20, 50,10)); // 80
+
+
+
+// let mina = [];
+
+// for (i = 0; i < min.length; i++) {
+  //     mina.push(min[i] + min[i]);
+  //   };
+  
+  // console.log(mina);
+  
+//   let min = [4,3,6,2];
+
+// cinn = (ele => ele + ele);
+
+// let add = min.map(cinn);
+
+// console.log(add);
+// console.log(parseInt('5'));
+// console.log(typeof '5');
+let swappingCases = "Elze43ro48";
+let add = swappingCases.split("").map((ele) => {
+  return  isNaN(parseInt(ele)) ? "" : ele;
+}).join("");
+
+// console.log(swappingCases);
+
+// let add = swappingCases.map(function (e) {
+//   return -e;
+// });
+
+console.log(add);
