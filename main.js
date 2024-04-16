@@ -1311,5 +1311,7 @@ console.log(add);
 //   return  isNaN(parseInt(ele)) ? "" : ele;
 // }).join("");
 
+fusdhfbiasufbyhwieufhnerifherifnh = "ksdjmf";
 
+console.log(fusdhfbiasufbyhwieufhnerifherifnh);
 
