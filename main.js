@@ -1300,18 +1300,24 @@
 //   return ele * ele;
 // });
 
-let myNumbers = ["nffns","sdajk","asdasdf","sffsdfd","asdfsfdfe","waffffffs","fhiwikf","fasdj,,k","asdfasdf","asfdfasdfsd","asdfsdfasdfsd","sdfsdfsdfsd","erohjlifuhi","sdfsdfdfds"];
+// let myNumbers = ["nffns","sdajk","asdasdf","sffsdfd","asdfsfdfe","waffffffs","fhiwikf","fasdj,,k","asdfasdf","asfdfasdfsd","asdfsdfasdfsd","sdfsdfsdfsd","erohjlifuhi","sdfsdfdfds"];
 
-let add = myNumbers.reduce((acc, current) => {
-  return acc.length > current.length ? acc : current;
-});
+// let add = myNumbers.reduce((acc, current) => {
+//   return acc.length > current.length ? acc : current;
+// });
 
-console.log(add);
+// console.log(add);
 // let add = swappingCases.split("").map((ele) => {
 //   return  isNaN(parseInt(ele)) ? "" : ele;
 // }).join("");
 
-fusdhfbiasufbyhwieufhnerifherifnh = "ksdjmf";
+  let ullin = document.querySelectorAll("ul li");
 
-console.log(fusdhfbiasufbyhwieufhnerifherifnh);
-
+  ullin.forEach((ele) => {
+    ele.onclick = function () {
+      ullin.forEach(function(ele) {
+        ele.classList.remove("active");
+      });
+      this.classList.add("active");
+    };
+  });
