@@ -1313,7 +1313,7 @@
 
   let ullin = document.querySelectorAll("ul li");
 
-  ullin.forEach((ele) => {
+  ullin.forEach((ele) => {  
     ele.onclick = function () {
       ullin.forEach(function(ele) {
         ele.classList.remove("active");
