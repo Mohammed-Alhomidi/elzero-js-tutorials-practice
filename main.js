@@ -1311,13 +1311,43 @@
 //   return  isNaN(parseInt(ele)) ? "" : ele;
 // }).join("");
 
-  let ullin = document.querySelectorAll("ul li");
+  // let ullin = document.querySelectorAll("ul li");
 
-  ullin.forEach((ele) => {  
-    ele.onclick = function () {
-      ullin.forEach(function(ele) {
-        ele.classList.remove("active");
-      });
-      this.classList.add("active");
-    };
-  });
+  // ullin.forEach((ele) => {  
+  //   ele.onclick = function () {
+  //     ullin.forEach(function(ele) {
+  //       ele.classList.remove("active");
+  //     });
+  //     this.classList.add("active");
+  //   };
+  // });
+
+
+//     let myString = "1,2,3,EE,l,z,e,r,o,_,W,e,b,_,S,c,h,o,o,l,2,0,Z";
+  
+//     let solution = myString.split("").map((ele) => {
+//       return !isNaN(ele) ? "" : ele ;
+//     }).filter((ele) => {
+//       return ele !== "," ? ele : "";
+//     }).reduce((acc,current) => {
+//       return acc + current;
+//     }).slice(1,18).replaceAll("_" , " ");
+    
+// console.log(solution); // Elzero Web School
+
+
+// let user = {
+//   firstName: "Mohammed",
+//   fatherName: "Mahfouz",
+//   lastName: "Alhomede",
+//   Age: 19,
+//   sayhello: () => {
+//     return `Hello`;
+//   },
+// };
+
+// console.log(user.firstName);
+// console.log(user.fatherName);
+// console.log(user.lastName);
+// console.log(user.Age);
+// console.log(user.sayhello());
