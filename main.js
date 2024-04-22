@@ -1323,31 +1323,38 @@
   // });
 
 
-//     let myString = "1,2,3,EE,l,z,e,r,o,_,W,e,b,_,S,c,h,o,o,l,2,0,Z";
-  
-//     let solution = myString.split("").map((ele) => {
-//       return !isNaN(ele) ? "" : ele ;
-//     }).filter((ele) => {
-//       return ele !== "," ? ele : "";
-//     }).reduce((acc,current) => {
-//       return acc + current;
-//     }).slice(1,18).replaceAll("_" , " ");
+    let myString = "1,2,3,EE,l,@,,,$,%,z,e,r,o,_,W,e,b,_,S,c,h,o,o,l,2,0,Z";
+      
+    let solution = myString.split("").map((ele) => {
+      return !isNaN(ele) ? "" : ele ;
+    }).filter((ele) => {
+      return ele !== "," && ele !== "$" && ele !== "%" && ele !== "@" ? ele : "";
+    }).reduce((acc,current) => {
+      return acc + current;
+    }).slice(true, -isNaN(myString)).replaceAll("_" , " ");
     
-// console.log(solution); // Elzero Web School
+console.log(solution); // Elzero Web School
 
 
-// let user = {
-//   firstName: "Mohammed",
-//   fatherName: "Mahfouz",
-//   lastName: "Alhomede",
-//   Age: 19,
-//   sayhello: () => {
-//     return `Hello`;
-//   },
-// };
+let user = {
+  firstName: "Mohammed",
+  Age: 19,
+  skils: ["html", "css","js"],
+  available: false,
+  country: {
+    egypt: "algaherh",
+    yemen: {
+      one: "tize",
+      tow: "sana",
+    },
+  },
+  chack : (ele) => {``
+    if (user.available = true) {
+      return `your name is ${user.firstName} and you exepted`
+    } else {
+      return `your name is ${user.firstName} and you not exepted`
+    };
+  },
+};
 
-// console.log(user.firstName);
-// console.log(user.fatherName);
-// console.log(user.lastName);
-// console.log(user.Age);
-// console.log(user.sayhello());
+console.log(user.chack());
