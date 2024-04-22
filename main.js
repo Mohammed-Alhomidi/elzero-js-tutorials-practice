@@ -1323,38 +1323,80 @@
   // });
 
 
-    let myString = "1,2,3,EE,l,@,,,$,%,z,e,r,o,_,W,e,b,_,S,c,h,o,o,l,2,0,Z";
-      
-    let solution = myString.split("").map((ele) => {
-      return !isNaN(ele) ? "" : ele ;
-    }).filter((ele) => {
-      return ele !== "," && ele !== "$" && ele !== "%" && ele !== "@" ? ele : "";
-    }).reduce((acc,current) => {
-      return acc + current;
-    }).slice(true, -isNaN(myString)).replaceAll("_" , " ");
+//     let myString = "1,2,3,EE,l,@,,,$,%,z,e,r,o,_,W,e,b,_,S,c,h,o,o,l,2,0,Z";
+
+//     let solution = myString.split("").map((ele) => {
+//       return !isNaN(ele) ? "" : ele ;
+//     }).filter((ele) => {
+//       return ele !== "," && ele !== "$" && ele !== "%" && ele !== "@" ? ele : "";
+//     }).reduce((acc,current) => {
+//       return acc + current;
+//     }).slice(true, -isNaN(myString)).replaceAll("_" , " ");
     
-console.log(solution); // Elzero Web School
+// console.log(solution); // Elzero Web School
 
 
-let user = {
-  firstName: "Mohammed",
-  Age: 19,
-  skils: ["html", "css","js"],
-  available: false,
-  country: {
-    egypt: "algaherh",
-    yemen: {
-      one: "tize",
-      tow: "sana",
-    },
-  },
-  chack : (ele) => {``
-    if (user.available = true) {
-      return `your name is ${user.firstName} and you exepted`
-    } else {
-      return `your name is ${user.firstName} and you not exepted`
-    };
-  },
-};
+// let user = {
+//   firstName: "Mohammed",
+//   Age: 19,
+//   skils: ["html", "css","js"],
+//   available: false,
+//   country: {
+//     egypt: "algaherh",
+//     yemen: {
+//       one: "tize",
+//       tow: "sana",
+//     },
+//   },
+//   chack : (ele) => {``
+//     if (user.available = true) {
+//       return `your name is ${user.firstName} and you exepted`
+//     } else {
+//       return `your name is ${user.firstName} and you not exepted`
+//     };
+//   },
+// };
 
-console.log(user.chack());
+// console.log(user.chack());
+
+
+// let user = {};
+
+// user.age = {};
+
+// user.age.name = {
+//   firsnamed: "mohammed",
+//   lastnames: "Mahfouze",
+// }
+
+// console.log(user)
+
+// // let user1 = {
+//   age1: 19,
+//   doubelage: function () {
+//     return user1.age1 * 2;
+//   },
+// };
+
+// let user2 = {
+//   age2: 19,
+//   age3: 13,
+//   age4: 109,
+//   doubelage: function () {
+//     return user2.age2 * 2;
+//   },
+// };
+
+// let user3 = {
+//   age5: 10000,
+//   doubelage: function () {
+//     return user3.age3 * 2;
+//   },
+// };
+
+
+// let allobject = Object.assign({user1},user2,user3, {mnal: "nmsc"});
+
+// console.log(allobject);
+
+let main = document.q
