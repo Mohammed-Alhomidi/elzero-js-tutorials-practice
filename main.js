@@ -1383,7 +1383,7 @@
 //   age3: 13,
 //   age4: 109,
 //   doubelage: function () {
-//     return user2.age2 * 2;
+//     return user2.age2 * 2;m
 //   },
 // };
 
