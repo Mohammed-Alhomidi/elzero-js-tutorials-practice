@@ -1399,4 +1399,7 @@
 
 // console.log(allobject);
 
-let main = document.q
+let main = document.querySelector("ul li").textContent = "poo";
+
+console.log(main.innerHTML);
+
