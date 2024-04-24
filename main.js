@@ -1390,7 +1390,7 @@
 // let user3 = {
 //   age5: 10000,
 //   doubelage: function () {
-//     return user3.age3 * 2;
+//     return user3.age3 * 2;  
 //   },
 // };
 
