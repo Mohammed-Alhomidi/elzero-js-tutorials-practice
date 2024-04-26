@@ -1399,7 +1399,11 @@
 
 // console.log(allobject);
 
-let main = document.querySelector("ul li").textContent = "poo";
+// let main = document.querySelector("ul li")
 
-console.log(main.innerHTML);
+// main.textContent = "mohhmaed<span>i love you bebe<span/>";
+
+main = document.getElementsByTagName("p")[0].attributes;
+
+console.log(main);
 
