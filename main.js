@@ -1403,7 +1403,87 @@
 
 // main.textContent = "mohhmaed<span>i love you bebe<span/>";
 
-main = document.getElementsByTagName("p")[0].attributes;
+// mains = document.querySelector(".main");
 
-console.log(main);
+// mains.innerHTML = "text from <span>span</span> ";
+// mains.textContent = "text from <span>span</span> ";
+
+// if (mains.hasAttribute("data-cor")) {
+//   if(mains.getAttribute("data-cor") === "") {
+//     mains.removeAttribute("data-cor");
+//   } else {
+//     mains.setAttribute("data-cor", "my name is shadowe fight");
+//   }
+// } else {
+//   console.log("Not found");
+// };
+
+
+// console.log(mains);
+
+
+
+
+// for (let i = 1; i <= 100; i++) {
+//   let main = document.createElement("div");
+//   main.className = 'console';
+
+//   let myh1 = document.createElement("h1");
+//   let mypra = document.createElement("p");
+
+  
+//   let mytexth1 = document.createTextNode("shadow ");
+//   let mytextpar = document.createTextNode("this is the montfg isbmsdkbjvsuj ");
+//   // Create and append the i tag
+//   mypra.appendChild(mytextpar);
+//   myh1.appendChild(mytexth1);
+
+//   let myi = document.createElement("i");
+//   let mytexti = document.createTextNode(i); // Assuming you want to display the current value of i
+//   myi.appendChild(mytexti);
+  
+//   let myi2 = document.createElement("i");
+//   let mytexti2 = document.createTextNode(i); // Assuming you want to display the current value of i
+//   myi2.appendChild(mytexti2);
+
+//   myh1.appendChild(myi); // Append the i tag before the h1 content
+//   mypra.appendChild(myi2); // Append the i tag before the h1 content
+  
+//   main.appendChild(myh1);
+//   main.appendChild(mypra);
+
+//   document.body.appendChild(main).style.borderBottom = "1px solid black";
+// };
+
+
+
+// for (let i = 1; i <= 100; i++) {
+//   let main = document.createElement("div");
+//   main.className = 'console';
+
+//   let myh1 = document.createElement("h1");
+//   let mypra = document.createElement("p");
+
+//   myh1.textContent = "shadow ";
+//   mypra.textContent = "this is the montfg isbmsdkbjvsuj ";
+  
+//   appendNumberAsIcon(myh1, i); // Append the value of i as an icon to the h1 element
+//   appendNumberAsIcon(mypra, i); // Append the value of i as an icon to the p element
+  
+//   main.appendChild(myh1);
+//   main.appendChild(mypra);
+
+//   document.body.appendChild(main).style.borderBottom = "1px solid black";
+// }
+
+//   function appendNumberAsIcon(element, number) {
+//     let icon = document.createElement("i");
+//     icon.textContent = number;
+//     element.appendChild(icon);
+//   }
+
+let main = document.querySelector("div");
+
+
+console.log(main.)
 
