@@ -1482,13 +1482,35 @@
 //     element.appendChild(icon);
 //   }
 
-let main = document.querySelector("div").onclick = function () {
-  for (let i =0; i < 10; i++) {
-    let shaow = document.createElement('h1');
-      shaow.textContent = "shadow fight";
-      document.body.appendChild(shaow);
-  }
-};
+// let main = document.querySelector("div").onclick = function () {
+//   for (let i =0; i < 1; i++) {
+//     let shaow = document.createElement('h1');
+//       shaow.textContent = "shadowfight";
+//       document.body.appendChild(shaow).style.color = 'red';
+//       shaow.style.backgroundColor = "black";
+//       shaow.style.objectFit = "cover";
+//   }
+// };
+let userinput = document.querySelector('[name="username"]');
+let ageinput = document.querySelector('[name="age"]');
 
+document.forms[0].onsubmit = function (e) {
+    let userValid = false;
+    let ageValid = false;
+    if (userinput.value !== "" && userinput.value.length <= 10) {
+      userValid = true;
+    };
+    if (userinput.value !== "") {
+      ageValid = true;
+    };
+    if (userValid === false || ageValid === false) {
+      e.preventDefault();
+    };
+}
+
+document.links[0].onclick = function (event) {
+  event.preventDefault();
+  console.log(event);
+}
 
 
