@@ -1482,8 +1482,13 @@
 //     element.appendChild(icon);
 //   }
 
-let main = document.querySelector("div");
+let main = document.querySelector("div").onclick = function () {
+  for (let i =0; i < 10; i++) {
+    let shaow = document.createElement('h1');
+      shaow.textContent = "shadow fight";
+      document.body.appendChild(shaow);
+  }
+};
 
 
-console.log(main.)
 
