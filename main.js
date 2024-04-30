@@ -1510,17 +1510,51 @@
     //   event.preventDefault();
     //   console.log(event);
     // }
-    
-    let userinput = document.querySelector('[name="username"]');
-    let ageinput = document.querySelector('[name="age"]');
-    
-    userinput.addEventListener('clikc', function() {
-      // Get the value of the first input field
-      let value = input1.value;
-      
-      // Check if the value contains only one number
-      if(/^\d$/.test(value)) {
-          // If it does, focus on the second input field
-          ageinput.focus();
-      }
-  });
+
+    let inputs = document.querySelectorAll("input");
+
+    inputs.forEach((input) => {
+      input.addEventListener("keyup", ()=> {
+        const currentInput = input,
+        nextInput = input.nextElementSibling;
+          if (currentInput.value.length > 1) {
+              currentInput.value = "";
+              return;
+          }
+          if (currentInput.value !== "") {
+            nextInput.focus();
+        }
+      })
+    })
+
+
+  //   inputs.forEach((input, index1) => {
+  //     input.addEventListener("keyup", (e) => {
+  //         const currentInput = input,
+  //             nextInput = input.nextElementSibling,
+  //             prevInput = input.previousElementSibling;
+  //         if (currentInput.value.length > 1) {
+  //             currentInput.value = "";
+  //             return;
+  //         }
+  //         if (nextInput && nextInput.hasAttribute("disabled") && currentInput.value !== "") {
+  //             nextInput.removeAttribute("disabled");
+  //             nextInput.focus();
+  //         }
+  //         if (e.key === "Backspace") {
+  //             inputs.forEach((input, index2) => {
+  //                 if (index1 <= index2 && prevInput) {
+  //                     input.setAttribute("disabled", true);
+  //                     input.value = "";
+  //                     prevInput.focus();
+  //                 }
+  //             });
+  //         }
+  //         if (!inputs[3].disabled && inputs[4].value !== "") {
+  //             button.classList.add("active");
+  //             checkOtp.click();
+  //             /* return; */
+  //         }
+  //         button.classList.remove("active");
+  //     });
+  // });
