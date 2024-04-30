@@ -1511,21 +1511,21 @@
     //   console.log(event);
     // }
 
-    let inputs = document.querySelectorAll("input");
+    // let inputs = document.querySelectorAll("input");
 
-    inputs.forEach((input) => {
-      input.addEventListener("keyup", ()=> {
-        const currentInput = input,
-        nextInput = input.nextElementSibling;
-          if (currentInput.value.length > 1) {
-              currentInput.value = "";
-              return;
-          }
-          if (currentInput.value !== "") {
-            nextInput.focus();
-        }
-      })
-    })
+    // inputs.forEach((input) => {
+    //   input.addEventListener("keyup", ()=> {
+    //     const currentInput = input,
+    //     nextInput = input.nextElementSibling;
+    //       if (currentInput.value.length > 1) {
+    //           currentInput.value = "";
+    //           return;
+    //       }
+    //       if (currentInput.value !== "") {
+    //         nextInput.focus();
+    //     }
+    //   })
+    // })
 
 
   //   inputs.forEach((input, index1) => {
@@ -1558,3 +1558,13 @@
   //         button.classList.remove("active");
   //     });
   // });
+
+  let main = document.getElementById("sow");
+
+  console.log(main); 
+  console.log(main.classList[0]);
+
+let shadow = document.querySelector("shadow");
+main.onclik = function () {
+  console.log("shadow");
+}
