@@ -1555,7 +1555,6 @@
   //             checkOtp.click();
   //             /* return; */
   //         }
-  //         button.classList.remove("active");
   //     });
   // });
 
@@ -1564,7 +1563,15 @@
   console.log(main); 
   console.log(main.classList[0]);
 
-let shadow = document.querySelector("shadow");
-main.onclik = function () {
-  console.log("shadow");
+let shadow = document.querySelector("shadow"); var ine = shadow;
+main.onclick = function () {
+  main.classList.toggle("to-on");
 }
+
+let main2 = document.querySelector(".shadow");
+main2.onclick = function () {
+  main.classList.remove("to-on", "jsdnk")
+};
+main2.style.cssText = "color: red; background-color: black; font-size: 40px;";
+
+main2.style.addProperty("");
