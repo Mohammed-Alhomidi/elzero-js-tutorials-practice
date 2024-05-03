@@ -1558,20 +1558,21 @@
   //     });
   // });
 
-  let main = document.getElementById("sow");
+    let main = document.getElementById("sow");
 
-  console.log(main); 
-  console.log(main.classList[0]);
+    console.log(main); 
+    console.log(main.classList[0]);
 
-let shadow = document.querySelector("shadow"); var ine = shadow;
-main.onclick = function () {
-  main.classList.toggle("to-on");
-}
+    let shadow = document.querySelector("shadow"); var ine = shadow;
+    main.onclick = function () {
+    main.classList.toggle("to-on");
+    }
 
-let main2 = document.querySelector(".shadow");
-main2.onclick = function () {
-  main.classList.remove("to-on", "jsdnk")
-};
-main2.style.cssText = "color: red; background-color: black; font-size: 40px;";
+    let main2 = document.querySelector(".shadow");
+    main2.onclick = function () {
+      main.classList.remove("to-on", "jsdnk")
+    };
 
-main2.style.addProperty("");
+    main2.style.cssText = "color: red; background-color: black; font-size: 40px;";
+    main2.style.removeProperty("");
+    main2.style.setProperty("font-size" , "60px","important");
