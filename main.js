@@ -1566,7 +1566,7 @@
     let shadow = document.querySelector("shadow"); var ine = shadow;
     main.onclick = function () {
     main.classList.toggle("to-on");
-    }
+    }   
 
     let main2 = document.querySelector(".shadow");
     main2.onclick = function () {
