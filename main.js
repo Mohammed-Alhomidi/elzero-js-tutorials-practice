@@ -1577,7 +1577,17 @@
     // main2.style.removeProperty("");
     // main2.style.setProperty("font-size" , "60px","important");
 
-    console.log("1");
-    console.log("2");
-    setTimeout(() => window.alert("shaodw"), 1);    
-    console.log("3");    
+    // console.log("1");
+    // console.log("2");
+    // setTimeout(() => window.alert("shaodw"), 1);    
+    // console.log("3");    
+
+
+    let myreqius = new XMLHttpRequest();
+    myreqius.open("GET","https://api.github.com/users/elzerowebschool/repos");
+    myreqius.send();
+    console.log(myreqius);
+    myreqius.onreadystatechange = () => {
+      console.log(myreqius.status);
+      console.log(myreqius.readyState);
+    }
