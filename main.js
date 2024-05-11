@@ -836,8 +836,6 @@
 // let model = [2022, 2023, 2024];
 // let colors = ["red", "black", "wight"]
 
-
-
 // for(i = 0; i < cars.length ; i++) {
 //   console.log(`car: ${cars[i]}`)
 
@@ -853,7 +851,6 @@
 //       man = noaeFORD;
 //       };
 
-  
 //   for (j = 0; j < man.length; j++) {
 //     console.log(`noaeBMW: ${man[j]}`)
 
@@ -867,10 +864,6 @@
 //   };
 //   console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
 // };
-
-
-
-
 
 // let cars = ["BMW", "FORD", "MERS"];
 // let parts = {
@@ -907,39 +900,38 @@
 // let colors = ["red", "black", "white"];
 
 // for (let i = 0; i < cars.length; i++) {
-  //   console.log(`Car: ${cars[i]}`);
-  
-  //   let carParts;
-  //   if (cars[i] === "BMW") {
-    //     carParts = noaeBMW;
-    //   } else if (cars[i] === "MERS") {
-      //     carParts = noaeMERS;
-      //   } else if (cars[i] === "FORD") {
-        //     carParts = noaeFORD;
-        //   }
-        
-        //   for (let j = 0; j < carParts.length; j++) {
-          //     console.log(`  Part: ${carParts[j]}`);
-          
-          //     for (let k = 0; k < model.length; k++) {
-            //       console.log(`    Model: ${model[k]}`);
-            
-            //       for (let h = 0; h < colors.length; h++) {
-              //         console.log(`      Color: ${colors[h]}`);
-              //       }
-              //     }
-              //   }
-              // }
-              
-              
-    // let cars = ["BMW", "MERS", "FORD",7 ,44 , 848 ,-19 ,"fksjbj" , "uiwrlfaiud"];
-              
-    //     for(i = 0; i < cars.length; i++) {
-    //         if (typeof cars[i] != "number") {
-    //           continue;
-    //         }
-    //         console.log(cars[i]);
-    //       };
+//   console.log(`Car: ${cars[i]}`);
+
+//   let carParts;
+//   if (cars[i] === "BMW") {
+//     carParts = noaeBMW;
+//   } else if (cars[i] === "MERS") {
+//     carParts = noaeMERS;
+//   } else if (cars[i] === "FORD") {
+//     carParts = noaeFORD;
+//   }
+
+//   for (let j = 0; j < carParts.length; j++) {
+//     console.log(`  Part: ${carParts[j]}`);
+
+//     for (let k = 0; k < model.length; k++) {
+//       console.log(`    Model: ${model[k]}`);
+
+//       for (let h = 0; h < colors.length; h++) {
+//         console.log(`      Color: ${colors[h]}`);
+//       }
+//     }
+//   }
+// }
+
+// let cars = ["BMW", "MERS", "FORD",7 ,44 , 848 ,-19 ,"fksjbj" , "uiwrlfaiud"];
+
+//     for(i = 0; i < cars.length; i++) {
+//         if (typeof cars[i] != "number") {
+//           continue;
+//         }
+//         console.log(cars[i]);
+//       };
 
 // function mani(par, mar) {
 //     return par * mar;
@@ -959,7 +951,6 @@
 //   ["oranges", 200]
 // ]);
 
-
 // function Ageinday (age) {
 //   return  age * 360;
 // }
@@ -971,17 +962,17 @@
 // }
 // let a = Ageinhuor();
 // let x = false;
- 
+
 // // console.log(a);
 
 // let thehasaba = {
-//   mwan: "dsijf", 
-//   mean: "jkdfjkfd", 
-//   mane: "sdsdf", 
-//   fjsak: x, 
-//   fjvk: 58959589, 
-//   fsajk: 589, 
-//   frjk: 9, 
+//   mwan: "dsijf",
+//   mean: "jkdfjkfd",
+//   mane: "sdsdf",
+//   fjsak: x,
+//   fjvk: 58959589,
+//   fsajk: 589,
+//   frjk: 9,
 //   dknf: ["fsdo"],
 //   skdjkdb: ["sduflsdu", "ldfn" ,"Passing"],
 //   jsdbkf: {
@@ -1004,7 +995,6 @@
 
 // console.log(thehasaba['mano']());
 
-
 // let man = (...number) => {
 //   let san = 0;
 //   for (let i = 0 ; i < number.length ; i++) {
@@ -1013,9 +1003,7 @@
 //   console.log(san);
 // }
 
-
 // man(9,1,10,36,4782478);
-
 
 // let lik = {};
 
@@ -1024,7 +1012,6 @@
 // lik.mansd = "kfjdf";
 
 // console.log(lik);
-
 
 // if (job === "Manager") {
 //   salary = 8000;
@@ -1036,7 +1023,6 @@
 //   salary = 4000;
 // };
 // console.log(`For your jon ${job} your salary is ${salary}`);
-
 
 // switch (job) {
 //   case "Manager" :
@@ -1050,7 +1036,7 @@
 //   case "Designer" :
 //     salary = 7000;
 //     break;
-//     default: 
+//     default:
 //     salary = 4000;
 // };
 
@@ -1086,7 +1072,6 @@
 //     console.log(`My Money is ${money}`);
 // };
 
-
 // if (holidays === 0) {
 //   money = 5000;
 // } else if (holidays === 1  || holidays === 2) {
@@ -1120,7 +1105,6 @@
 
 // calc("Ahmed");
 
-
 // function calc (...number) {
 //   let rsalt = 0;
 //   for (let i = 0; i < number.length; i++) {
@@ -1131,24 +1115,24 @@
 
 // console.log(calc(10,10,30,10,10,30,10,10,30,10,10,30));
 
-  // function shaowinfo (n = "un", a = "un" , h = 0 , show = "yes", ...skills)  {
-  //   document.write(`<div>`);
-  //   document.write(`<h2>Wellcome: ${n}</h2>`)
-  //   document.write(`<p>your age is: ${a} </p>`)
-  //   document.write(`<p>your hour is: $${h} </p>`)
-  //         if (show === "yes") {
-  //           if (skills.length > 0) {
-  //             document.write(`<p>your skills is: ${skills.join(" |   |   ")} </p>`)
-  //           }else {
-  //             document.write(`<p>your skills is: ناقص </p>`);
-  //           };
-  //         }else {
-  //           document.write(`<p>your skills is: hedding </p>`);
-  //         }
-  //   document.write(`</div>`);
-  // };
+// function shaowinfo (n = "un", a = "un" , h = 0 , show = "yes", ...skills)  {
+//   document.write(`<div>`);
+//   document.write(`<h2>Wellcome: ${n}</h2>`)
+//   document.write(`<p>your age is: ${a} </p>`)
+//   document.write(`<p>your hour is: $${h} </p>`)
+//         if (show === "yes") {
+//           if (skills.length > 0) {
+//             document.write(`<p>your skills is: ${skills.join(" |   |   ")} </p>`)
+//           }else {
+//             document.write(`<p>your skills is: ناقص </p>`);
+//           };
+//         }else {
+//           document.write(`<p>your skills is: hedding </p>`);
+//         }
+//   document.write(`</div>`);
+// };
 
-  // shaowinfo("Mohammed",19,10,"yes","Html","css","js");
+// shaowinfo("Mohammed",19,10,"yes","Html","css","js");
 
 /*
   Function - Random Argument Challenge
@@ -1158,7 +1142,7 @@
   Data Types For Info Is
   - String => Name
   - Number => Age
-  - Boolean => Status
+  - Boolean => status
   Argument Is Random
   Data Is Not Sorted Output Depend On Data Types
   - Use Ternary Conditional Operator
@@ -1193,11 +1177,10 @@
 //       hour = "You Are Available For Hire";
 //     } else {
 //       hour = "You Are Not Available For Hire";
-//     };  
+//     };
 //     console.log(`Hello ${name}, Your Age Is ${age}, ${hour}`)
 //   };
-  
-  
+
 // showDetails("Osama", 38, true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
 // showDetails(38, "Osama", true); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
 // showDetails(true, 38, "Osama"); // "Hello Osama, Your Age Is 38, You Are Available For Hire"
@@ -1237,18 +1220,12 @@
 
 // let names = function (...man1) {
 //   // Parameter ?
-//   
+//
 // };
 // let names = (...man1) => `String [${man1.join("], [")}] => Done !`;
 
-
 // console.log(names("Osama", "Mohamed", "Ali", "Ibrahim"));
 // // String [Osama], [Mohamed], [Ali], [Ibrahim] => Done !
-
-
-
-
-
 
 /* ================================= */
 
@@ -1262,16 +1239,14 @@
 
 // console.log(calc(20, 50,10)); // 80
 
-
-
 // let mina = [];
 
 // for (i = 0; i < min.length; i++) {
-  //     mina.push(min[i] + min[i]);
-  //   };
-  
-  // console.log(mina);
-  
+//     mina.push(min[i] + min[i]);
+//   };
+
+// console.log(mina);
+
 //   let min = [4,3,6,2];
 
 // cinn = (ele => ele + ele);
@@ -1311,17 +1286,16 @@
 //   return  isNaN(parseInt(ele)) ? "" : ele;
 // }).join("");
 
-  // let ullin = document.querySelectorAll("ul li");
+// let ullin = document.querySelectorAll("ul li");
 
-  // ullin.forEach((ele) => {  
-  //   ele.onclick = function () {
-  //     ullin.forEach(function(ele) {
-  //       ele.classList.remove("active");
-  //     });
-  //     this.classList.add("active");
-  //   };
-  // });
-
+// ullin.forEach((ele) => {
+//   ele.onclick = function () {
+//     ullin.forEach(function(ele) {
+//       ele.classList.remove("active");
+//     });
+//     this.classList.add("active");
+//   };
+// });
 
 //     let myString = "1,2,3,EE,l,@,,,$,%,z,e,r,o,_,W,e,b,_,S,c,h,o,o,l,2,0,Z";
 
@@ -1332,9 +1306,8 @@
 //     }).reduce((acc,current) => {
 //       return acc + current;
 //     }).slice(true, -isNaN(myString)).replaceAll("_" , " ");
-    
-// console.log(solution); // Elzero Web School
 
+// console.log(solution); // Elzero Web School
 
 // let user = {
 //   firstName: "Mohammed",
@@ -1358,7 +1331,6 @@
 // };
 
 // console.log(user.chack());
-
 
 // let user = {};
 
@@ -1390,10 +1362,9 @@
 // let user3 = {
 //   age5: 10000,
 //   doubelage: function () {
-//     return user3.age3 * 2;  
+//     return user3.age3 * 2;
 //   },
 // };
-
 
 // let allobject = Object.assign({user1},user2,user3, {mnal: "nmsc"});
 
@@ -1418,11 +1389,7 @@
 //   console.log("Not found");
 // };
 
-
 // console.log(mains);
-
-
-
 
 // for (let i = 1; i <= 100; i++) {
 //   let main = document.createElement("div");
@@ -1431,7 +1398,6 @@
 //   let myh1 = document.createElement("h1");
 //   let mypra = document.createElement("p");
 
-  
 //   let mytexth1 = document.createTextNode("shadow ");
 //   let mytextpar = document.createTextNode("this is the montfg isbmsdkbjvsuj ");
 //   // Create and append the i tag
@@ -1441,21 +1407,19 @@
 //   let myi = document.createElement("i");
 //   let mytexti = document.createTextNode(i); // Assuming you want to display the current value of i
 //   myi.appendChild(mytexti);
-  
+
 //   let myi2 = document.createElement("i");
 //   let mytexti2 = document.createTextNode(i); // Assuming you want to display the current value of i
 //   myi2.appendChild(mytexti2);
 
 //   myh1.appendChild(myi); // Append the i tag before the h1 content
 //   mypra.appendChild(myi2); // Append the i tag before the h1 content
-  
+
 //   main.appendChild(myh1);
 //   main.appendChild(mypra);
 
 //   document.body.appendChild(main).style.borderBottom = "1px solid black";
 // };
-
-
 
 // for (let i = 1; i <= 100; i++) {
 //   let main = document.createElement("div");
@@ -1466,10 +1430,10 @@
 
 //   myh1.textContent = "shadow ";
 //   mypra.textContent = "this is the montfg isbmsdkbjvsuj ";
-  
+
 //   appendNumberAsIcon(myh1, i); // Append the value of i as an icon to the h1 element
 //   appendNumberAsIcon(mypra, i); // Append the value of i as an icon to the p element
-  
+
 //   main.appendChild(myh1);
 //   main.appendChild(mypra);
 
@@ -1493,101 +1457,119 @@
 // };
 
 // document.forms[0].onsubmit = function (e) {
-  //     let userValid = false;
+//     let userValid = false;
 //     let ageValid = false;
 //     if (userinput.value !== "" && userinput.value.length <= 10) {
-  //       userValid = true;
+//       userValid = true;
 //     };
 //     if (userinput.value !== "") {
-  //       ageValid = true;
-  //     };
+//       ageValid = true;
+//     };
 //     if (userValid === false || ageValid === false) {
-  //       e.preventDefault();
-  //     };
-  // }
-  
-  // document.links[0].onclick = function (event) {
-    //   event.preventDefault();
-    //   console.log(event);
-    // }
+//       e.preventDefault();
+//     };
+// }
 
-    // let inputs = document.querySelectorAll("input");
+// document.links[0].onclick = function (event) {
+//   event.preventDefault();
+//   console.log(event);
+// }
 
-    // inputs.forEach((input) => {
-    //   input.addEventListener("keyup", ()=> {
-    //     const currentInput = input,
-    //     nextInput = input.nextElementSibling;
-    //       if (currentInput.value.length > 1) {
-    //           currentInput.value = "";
-    //           return;
-    //       }
-    //       if (currentInput.value !== "") {
-    //         nextInput.focus();
-    //     }
-    //   })
-    // })
+// let inputs = document.querySelectorAll("input");
 
+// inputs.forEach((input) => {
+//   input.addEventListener("keyup", ()=> {
+//     const currentInput = input,
+//     nextInput = input.nextElementSibling;
+//       if (currentInput.value.length > 1) {
+//           currentInput.value = "";
+//           return;
+//       }
+//       if (currentInput.value !== "") {
+//         nextInput.focus();
+//     }
+//   })
+// })
 
-  //   inputs.forEach((input, index1) => {
-  //     input.addEventListener("keyup", (e) => {
-  //         const currentInput = input,
-  //             nextInput = input.nextElementSibling,
-  //             prevInput = input.previousElementSibling;
-  //         if (currentInput.value.length > 1) {
-  //             currentInput.value = "";
-  //             return;
-  //         }
-  //         if (nextInput && nextInput.hasAttribute("disabled") && currentInput.value !== "") {
-  //             nextInput.removeAttribute("disabled");
-  //             nextInput.focus();
-  //         }
-  //         if (e.key === "Backspace") {
-  //             inputs.forEach((input, index2) => {
-  //                 if (index1 <= index2 && prevInput) {
-  //                     input.setAttribute("disabled", true);
-  //                     input.value = "";
-  //                     prevInput.focus();
-  //                 }
-  //             });
-  //         }
-  //         if (!inputs[3].disabled && inputs[4].value !== "") {
-  //             button.classList.add("active");
-  //             checkOtp.click();
-  //             /* return; */
-  //         }
-  //     });
-  // });
+//   inputs.forEach((input, index1) => {
+//     input.addEventListener("keyup", (e) => {
+//         const currentInput = input,
+//             nextInput = input.nextElementSibling,
+//             prevInput = input.previousElementSibling;
+//         if (currentInput.value.length > 1) {
+//             currentInput.value = "";
+//             return;
+//         }
+//         if (nextInput && nextInput.hasAttribute("disabled") && currentInput.value !== "") {
+//             nextInput.removeAttribute("disabled");
+//             nextInput.focus();
+//         }
+//         if (e.key === "Backspace") {
+//             inputs.forEach((input, index2) => {
+//                 if (index1 <= index2 && prevInput) {
+//                     input.setAttribute("disabled", true);
+//                     input.value = "";
+//                     prevInput.focus();
+//                 }
+//             });
+//         }
+//         if (!inputs[3].disabled && inputs[4].value !== "") {
+//             button.classList.add("active");
+//             checkOtp.click();
+//             /* return; */
+//         }
+//     });
+// });
 
-    // let main = document.getElementById("sow");
+// let main = document.getElementById("sow");
 
-    // console.log(main); 
-    // console.log(main.classList[0]);
+// console.log(main);
+// console.log(main.classList[0]);
 
-    // let shadow = document.querySelector("shadow"); var ine = shadow;
-    // main.onclick = function () {
-    // main.classList.toggle("to-on");
-    // }   
+// let shadow = document.querySelector("shadow"); var ine = shadow;
+// main.onclick = function () {
+// main.classList.toggle("to-on");
+// }
 
-    // let main2 = document.querySelector(".shadow");
-    // main2.onclick = function () {
-    //   main.classList.remove("to-on", "jsdnk")
-    // };
+// let main2 = document.querySelector(".shadow");
+// main2.onclick = function () {
+//   main.classList.remove("to-on", "jsdnk")
+// };
 
-    // main2.style.cssText = "color: red; background-color: black; font-size: 40px;";
-    // main2.style.removeProperty("");
-    // main2.style.setProperty("font-size" , "60px","important");
+// main2.style.cssText = "color: red; background-color: black; font-size: 40px;";
+// main2.style.removeProperty("");
+// main2.style.setProperty("font-size" , "60px","important");
 
-    // console.log("1");
-    // console.log("2");
-    // setTimeout(() => window.alert("shaodw"), 1);    
-    // console.log("3");    
+// console.log("1");
+// console.log("2");
+// setTimeout(() => window.alert("shaodw"), 1);
+// console.log("3");
 
+// let myRequest = new XMLHttpRequest();
+// myRequest.open("GET", "https://api.github.com/users/elzerowebschool/repos");
+// myRequest.send();
+// console.log(myRequest);
+// console.log(typeof ok);
 
-    let myreqius = new XMLHttpRequest();
-    myreqius.open("GET","https://api.github.com/users/elzerowebschool/repos");
-    myreqius.send();
-    console.log(myreqius);
-    myreqius.onreadystatechange = () => {
-      console.log(myreqius.status);
-      console.log(myreqius.readyState);
-    }
+// myRequest.onreadystatechange = function () {
+//   if (this.readyState === 4 && this.status === 200) {
+//     let jsData = JSON.parse(this.responseText);
+//     console.log(jsData);
+//     for (let i = 0 ; i < jsData.length ; i++) {
+//       let div = document.createElement("div");
+//       let divtext = document.createTextNode(jsData[i].full_name);
+//       div.appendChild(divtext);
+//       document.body.appendChild(div);
+//     }
+//   };
+// };
+
+      let sow = document.querySelector("#sow");
+      function mansin(e) {
+        e.target.style.color = "red";
+      }
+
+      sow.addEventListener("click", setTimeout);
+      setTimeout(() => {
+          mansin({ target: sow }); 
+      }, 2000);
