@@ -1572,4 +1572,4 @@
       sow.addEventListener("click", setTimeout);
       setTimeout(() => {
           mansin({ target: sow }); 
-      }, 2000);
+      }, 2000); 
