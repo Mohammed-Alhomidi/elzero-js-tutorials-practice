@@ -1564,12 +1564,25 @@
 //   };
 // };
 
-      let sow = document.querySelector("#sow");
-      function mansin(e) {
-        e.target.style.color = "red";
+      // let sow = document.querySelector("#sow");
+      // function mansin(e) {
+      //   e.target.style.color = "red";
+      // }
+
+      // sow.addEventListener("click", setTimeout);
+      // setTimeout(() => {
+      //     mansin({ target: sow }); 
+      // }, 2000); 
+
+      let preg = document.querySelector("p");
+      preg.onclick = function () {
+        let newpreg = preg.cloneNode(true);
+        newpreg.className = "shadow";
+        document.body.appendChild(newpreg);
       }
 
-      sow.addEventListener("click", setTimeout);
-      setTimeout(() => {
-          mansin({ target: sow }); 
-      }, 2000); 
+    document.addEventListener("click", function (e) {
+    if (e.target.className === "shadow") {
+      console.log("i am shadow");
+    };
+  });
