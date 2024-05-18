@@ -1676,6 +1676,3 @@ function syjdjkd () {
   prompt("do you want to yes or nat");
 }
 setTimeout(syjdjkd ,3000);
-
-
-\
