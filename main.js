@@ -1671,8 +1671,49 @@
 // }else {
 //   console.log("light");
 // }
+// setTimeout(syjdjkd ,3000 , "Mohammed");
 
-function syjdjkd () {
-  prompt("do you want to yes or nat");
-}
-setTimeout(syjdjkd ,3000);
+// function syjdjkd (user) {
+//   console.log(`do you want to yes or nat ${user}`);
+// }
+
+// setInterval(function () {
+//   console.log("Shadow")
+// },1000)
+
+// document.body.style.cssText = "height: 1100px"
+
+// let span = document.querySelector("span");
+// let but = document.querySelector("button");
+// let pra = document.querySelector("p");
+// let pbt2 = document.querySelector(".homed");
+// but.style.cssText = "display: none";
+// pbt2.style.cssText = "display: none; margin-top: 1000px";
+
+// function currentdown () {
+//   span.innerHTML -=1;
+//   if (span.innerHTML === "0") {
+//     but.style.cssText = "display: block";
+//     clearInterval(counter);
+//     pra.style.cssText = "display: none";
+//   };
+//   but.addEventListener("click", function () {
+//     pbt2.style.cssText = "display: block; margin-top: 1000px";
+//     but.style.cssText = "display: none";
+//   })
+// };
+// let counter = setInterval(currentdown,1000);
+
+// location.href = "https://google.com";
+
+
+console.log(history);
+
+
+
+
+
+
+
+
+
