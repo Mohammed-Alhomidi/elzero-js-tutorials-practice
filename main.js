@@ -1706,10 +1706,23 @@
 
 // location.href = "https://google.com";
 
+// let btn = document.querySelector("button");
 
-console.log(history);
+// window.onscroll = function () {
+//   if (window.scrollY >= 1500) {
+//     btn.style.display = "block";
+//   }else if (window.scrollY < 1500) {
+//     btn.style.display = "none";
+//   }
+// };
 
-
+// btn.onclick = function () {
+//   window.scrollTo({
+//     top: 0,
+//     left: 0,
+//     behavior: "smooth"
+//   })
+// }
 
 
 
