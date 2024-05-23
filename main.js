@@ -1701,7 +1701,7 @@
 //     pbt2.style.cssText = "display: block; margin-top: 1000px";
 //     but.style.cssText = "display: none";
 //   })
-// };
+// // };
 // let counter = setInterval(currentdown,1000);
 
 // location.href = "https://google.com";
@@ -1724,9 +1724,16 @@
 //   })
 // }
 
+window.localStorage.setItem("color", "red");
+
+window.localStorage.getItem("color");
+console.log(window.localStorage);
+console.log(typeof window.localStorage);
+
+window.localStorage.getItem("color");
 
 
+// window.localStorage.removeItem("color");
 
-
-
+window.localStorage.clear();
 
