@@ -1724,16 +1724,16 @@
 //   })
 // }
 
-window.localStorage.setItem("color", "red");
+// window.localStorage.setItem("color", "red");
 
-window.localStorage.getItem("color");
-console.log(window.localStorage);
-console.log(typeof window.localStorage);
+// window.localStorage.getItem("color");
+// console.log(window.localStorage);
+// console.log(typeof window.localStorage);
 
-window.localStorage.getItem("color");
+// window.localStorage.getItem("color");
 
 
 // window.localStorage.removeItem("color");
 
-window.localStorage.clear();
+// window.localStorage.clear();
 
