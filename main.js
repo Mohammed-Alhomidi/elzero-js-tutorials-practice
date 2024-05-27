@@ -1741,26 +1741,26 @@
   BOM [Browser Object Model]
   Local Storage Practice
 */
-let lis = document.querySelectorAll("ul li");
-let main = document.querySelector(".experiment");
+// let lis = document.querySelectorAll("ul li");
+// let main = document.querySelector(".experiment");
 
-if(window.localStorage.getItem("color")) {
-  main.style.background = window.localStorage.getItem("color");
-  lis.forEach((e) => {
-    e.classList.remove("active");
-  })
-  document.querySelector(`[data-color="${window.localStorage.getItem("color")}"]`).classList.add("active");
-} else {
-  console.log("No");
-};
+// if(window.localStorage.getItem("color")) {
+//   main.style.background = window.localStorage.getItem("color");
+//   lis.forEach((e) => {
+//     e.classList.remove("active");
+//   })
+//   document.querySelector(`[data-color="${window.localStorage.getItem("color")}"]`).classList.add("active");
+// } else {
+//   console.log("No");
+// };
 
-lis.forEach((li) => {
-  li.addEventListener("click", function (e) {
-    lis.forEach((e) =>{ 
-      e.classList.remove("active");
-    })
-    e.currentTarget.classList.add("active");
-    window.localStorage.setItem("color", e.currentTarget.dataset.color);
-    main.style.background = window.localStorage.getItem("color");
-  })
-})
+// lis.forEach((li) => {
+//   li.addEventListener("click", function (e) {
+//     lis.forEach((e) =>{ 
+//       e.classList.remove("active");
+//     })
+//     e.currentTarget.classList.add("active");
+//     window.localStorage.setItem("color", e.currentTarget.dataset.color);
+//     main.style.background = window.localStorage.getItem("color");
+//   })
+// })
