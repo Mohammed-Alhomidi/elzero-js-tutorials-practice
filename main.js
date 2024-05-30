@@ -720,8 +720,6 @@
 
 // document.getElementById('button').addEventListener('click', test);
 
-
-
 // let url1 = 'elzero.org';
 // let url2 = 'http://elzero.org';
 // let url3 = 'https://elzero.org';
@@ -1193,7 +1191,6 @@
 // console.log(sayHello("Mahfouz ","Mahfouz "));
 // console.log(sayHello("Mahfouz ","Mohammed "));
 
-
 // [1] One Statement In Function
 // [2] Convert To Arrow Function
 // [3] Print The Output [Arguments May Change]
@@ -1206,7 +1203,6 @@
 
 // console.log(names("Osama", "Mohamed", "Ali", "Ibrahim"));
 // String [Osama], [Mohamed], [Ali], [Ibrahim] => Done !
-
 
 // [1] Replace ??? In Return Statement To Get The Output
 // [2] Create The Same Function With Regular Syntax
@@ -1543,29 +1539,29 @@
 //   };
 // };
 
-      // let sow = document.querySelector("#sow");
-      // function mansin(e) {
-      //   e.target.style.color = "red";
-      // }
+// let sow = document.querySelector("#sow");
+// function mansin(e) {
+//   e.target.style.color = "red";
+// }
 
-      // sow.addEventListener("click", setTimeout);
-      // setTimeout(() => {
-      //     mansin({ target: sow }); 
-      // }, 2000); 
+// sow.addEventListener("click", setTimeout);
+// setTimeout(() => {
+//     mansin({ target: sow });
+// }, 2000);
 
-  //     let preg = document.querySelector("p");
-  //     preg.onclick = function () {
-  //       let newpreg = preg.cloneNode(true);
-  //       newpreg.className = "shadow";
-  //       document.body.appendChild(newpreg);
-  //     }
+//     let preg = document.querySelector("p");
+//     preg.onclick = function () {
+//       let newpreg = preg.cloneNode(true);
+//       newpreg.className = "shadow";
+//       document.body.appendChild(newpreg);
+//     }
 
-  //   document.addEventListener("click", function (e) {
-  //   if (e.target.className === "shadow") {
-  //     console.log("i am shadow");
-  //   };
-  // });
-  //stert navs
+//   document.addEventListener("click", function (e) {
+//   if (e.target.className === "shadow") {
+//     console.log("i am shadow");
+//   };
+// });
+//stert navs
 ///////////////////////////////////////////////////////////////////////////////
 
 //   document.body.style.cssText = "margin: 0px;"
@@ -1573,18 +1569,15 @@
 //   let li1 = document.createElement("li");
 //   li1.style.cssText = "padding: 5px"
 //   li1.textContent = "Home"
-  
-  
+
 //   let li2 = document.createElement("li");
 //   li2.style.cssText = "padding: 5px"
 //   li2.textContent = "About"
-  
-  
+
 //   let li3 = document.createElement("li");
 //   li3.style.cssText = "padding: 5px"
 //   li3.textContent = "Service"
-  
-  
+
 //   let li4 = document.createElement("li");
 //   li4.style.cssText = "padding: 5px"
 //   li4.textContent = "Contact"
@@ -1606,9 +1599,7 @@
 //   navs.appendChild(logo);
 //   navs.appendChild(ul);
 
-
-
-//   let content = document.createElement("div"); 
+//   let content = document.createElement("div");
 //   content.classList = "content";
 //   content.style.cssText = "padding: 20px; background-color: #a09d9d; display: grid; gap: 20px;grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));";
 
@@ -1630,7 +1621,6 @@
 //   content.appendChild(product);
 // };
 
-
 // let h1foter = document.createElement("h1");
 // h1foter.style.cssText = "margin: 0px; color: #cec8c8; font-size: 20px"
 // h1foter.textContent = "Copyright 2024";
@@ -1639,8 +1629,6 @@
 // footer.style.cssText = "padding: 20px; background-color: #0d523b; text-align: center;"
 // footer.appendChild(h1foter);
 
-
-
 // let container = document.createElement("div");
 // document.body.appendChild(container);
 // container.style.cssText = ""
@@ -1648,9 +1636,7 @@
 // container.appendChild(content);
 // container.appendChild(footer);
 
-
 //////////////////////////////////////////////////////////////////////////////////////
-
 
 // let masseg = confirm("do you want to yes or nat");
 
@@ -1732,7 +1718,6 @@
 
 // window.localStorage.getItem("color");
 
-
 // window.localStorage.removeItem("color");
 
 // window.localStorage.clear();
@@ -1756,7 +1741,7 @@
 
 // lis.forEach((li) => {
 //   li.addEventListener("click", function (e) {
-//     lis.forEach((e) =>{ 
+//     lis.forEach((e) =>{
 //       e.classList.remove("active");
 //     })
 //     e.currentTarget.classList.add("active");
@@ -1764,3 +1749,111 @@
 //     main.style.background = window.localStorage.getItem("color");
 //   })
 // })
+
+// let input = document.querySelector(".input");
+// let submit = document.querySelector(".add");
+// let submit1 = document.querySelector(".add1");
+// let tasksDiv = document.querySelector(".tasks");
+
+// let arrayOftasks = [];
+// if (localStorage.getItem("tasks")) {
+//   arrayOftasks = JSON.parse(localStorage.getItem("tasks"));
+// }
+// getDataFromLocalStorage();
+// submit1.onclick = function () {
+//   tasksDiv.innerHTML = "";
+//   window.localStorage.removeItem("tasks");
+// };
+
+// submit.onclick = function () {
+//   if (input.value !== "") {
+//     addTaskToArray(input.value);
+//     input.value = "";
+//   }
+// };
+
+// tasksDiv.addEventListener("click", (e) => {
+//   if (e.target.classList.contains("del")) {
+//     deleteTaskWith(e.target.parentElement.getAttribute("data-id"));
+//     e.target.parentElement.remove();
+//   };
+//   if (e.target.classList.contains("task")) {
+//     toggleStatusTaskWith(e.target.getAttribute("data-id"));
+//     e.target.classList.toggle("done");
+//   }
+// });
+
+// function addTaskToArray(taskText) {
+//   const task = {
+//     id: Date.now(),
+//     title: taskText,
+//     completed: false,
+//   };
+//   arrayOftasks.push(task);
+//   addElementsToPageFrom(arrayOftasks);
+//   addDataToLocalStorageFrom(arrayOftasks);
+// }
+
+// function addElementsToPageFrom(arrayOftasks) {
+//   tasksDiv.innerHTML = "";
+//   arrayOftasks.forEach((task) => {
+//     let div = document.createElement("div");
+//     div.className = "task";
+//     if (task.completed) {
+//       div.className = "task done";
+//     }
+//     div.setAttribute("data-id", task.id)
+//     div.appendChild(document.createTextNode(task.title));
+//     let span = document.createElement("span");
+//     span.className = "del";
+//     span.appendChild(document.createTextNode("Delete"));
+//     div.appendChild(span);
+//     tasksDiv.appendChild(div);
+//   });
+// };
+
+// function addDataToLocalStorageFrom(arrayOftasks) {
+//   window.localStorage.setItem("tasks", JSON.stringify(arrayOftasks));
+// }
+
+// function getDataFromLocalStorage() {
+//   let data = window.localStorage.getItem("tasks");
+//   if (data) {
+//     let tasks = JSON.parse(data);
+//     addElementsToPageFrom(tasks);
+//   }
+// };
+
+// function deleteTaskWith(taskId) {
+//   arrayOftasks = arrayOftasks.filter((task) => task.id != taskId);
+//   addDataToLocalStorageFrom(arrayOftasks);
+// }
+
+// function deleteTaskWith(taskId) {
+//   arrayOftasks = arrayOftasks.filter((task) => task.id != taskId);
+//   addDataToLocalStorageFrom(arrayOftasks);
+// }
+
+// function toggleStatusTaskWith(taskId) {
+//   for (let i = 0; i < arrayOftasks.length; i++) {
+//     if (arrayOftasks[i].id == taskId) {
+//       arrayOftasks[i].completed == false ? (arrayOftasks[i].completed = true) : (arrayOftasks[i].completed = false);
+//     }
+//   }
+//   addDataToLocalStorageFrom(arrayOftasks);
+// }
+
+let colorful = [1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"];
+
+function playinto (){ 
+  let colorsol = [];
+
+for (let i = 0; i < 6; i++) {
+  colorsol.push(colorful[Math.floor(Math.random() * colorful.length)]);
+};
+let fincolor = `#${colorsol.join("")}`
+document.querySelector(".div1").style.background = fincolor;
+document.querySelector(".div1").style.boxShadow = ``
+}
+
+setInterval(playinto, 2000);
