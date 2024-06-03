@@ -1843,17 +1843,29 @@
 //   addDataToLocalStorageFrom(arrayOftasks);
 // }
 
-let colorful = [1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"];
+// let colorful = [1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"];
 
-function playinto (){ 
-  let colorsol = [];
+// function playinto (){ 
+//   let colorsol = [];
 
-for (let i = 0; i < 6; i++) {
-  colorsol.push(colorful[Math.floor(Math.random() * colorful.length)]);
-};
-let fincolor = `#${colorsol.join("")}`
-document.querySelector(".div1").style.background = fincolor;
-document.querySelector(".div1").style.boxShadow = ``
-}
+// for (let i = 0; i < 6; i++) {
+//   colorsol.push(colorful[Math.floor(Math.random() * colorful.length)]);
+// };
+// let fincolor = `#${colorsol.join("")}`
+// document.querySelector(".div1").style.background = fincolor;
+// document.querySelector(".div1").style.boxShadow = ``
+// }
 
-setInterval(playinto, 2000);
+// setInterval(playinto, 2000);
+let myobject1 = {Nmee: "mohammed", age: 19};
+let myobject2 = {Nmee: "salem", age: 35};
+let myobject3 = {Nmee: "hamad", age: 23};
+let myobject4 = {Nmee: "rashad", age: 38};
+let kzczoxm = new Map([
+    [myobject1, "shadow1"],
+    [myobject2, "shadow2"],
+    [myobject3, "shadow3"],
+    [myobject4, "shadow4"],
+]);
+
+console.log(kzczoxm);
