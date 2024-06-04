@@ -1857,15 +1857,36 @@
 // }
 
 // setInterval(playinto, 2000);
-let myobject1 = {Nmee: "mohammed", age: 19};
-let myobject2 = {Nmee: "salem", age: 35};
-let myobject3 = {Nmee: "hamad", age: 23};
-let myobject4 = {Nmee: "rashad", age: 38};
-let kzczoxm = new Map([
-    [myobject1, "shadow1"],
-    [myobject2, "shadow2"],
-    [myobject3, "shadow3"],
-    [myobject4, "shadow4"],
-]);
+// let myobject1 = {Nmee: "mohammed", age: 19};
+// let myobject2 = {Nmee: "salem", age: 35};
+// let myobject3 = {Nmee: "hamad", age: 23};
+// let myobject4 = {Nmee: "rashad", age: 38};
+// let kzczoxm = new Map([
+//     [myobject1, "shadow1"],
+//     [myobject2, "shadow2"],
+//     [myobject3, "shadow3"],
+//     [myobject4, "shadow4"],
+// ]);
 
-console.log(kzczoxm);
+// console.log(kzczoxm);
+
+// console.log(Path2Dx);
+
+// console.log(Array.from("123456789",(n) => +n + +n));
+
+// let myarry = [1,1,1,2,3,4,5,];
+
+// let myset = new Set(myarry);
+// console.log(myset);
+
+// console.log(Array.from(myset)); 
+
+
+let myarry = [10,20,30,40,50,"A","B"];
+console.log(myarry);
+mynumber = "B";
+let myching = myarry.some((e) => {
+    return e = this;
+}, mynumber);
+
+console.log(myching);
