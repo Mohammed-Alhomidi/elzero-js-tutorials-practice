@@ -1882,11 +1882,68 @@
 // console.log(Array.from(myset)); 
 
 
-let myarry = [10,20,30,40,50,"A","B"];
-console.log(myarry);
-mynumber = "B";
-let myching = myarry.some((e) => {
-    return e = this;
-}, mynumber);
+// let myarry = [10,20,30,40,50];
+// console.log(myarry);
+// mynumber = "B";
+// let myching = myarry.some((e) => {
+//     return e = this;
+// }, mynumber);
 
-console.log(myching);
+// console.log(myching);
+
+// let myinching = function (arr, val) {
+//     return arr.some((e) => {
+//         return e === val;
+//     });
+// };
+
+// console.log(myinching(myarry, "A"));
+
+// let ring = {
+//     min: 20,
+//     max: 30
+// };
+
+// let mychindsinkd = myarry.some(function (e) {
+//     console.log(this.min);
+//     console.log(this.max);
+//     return e >= this.min && e <= this.max;
+// }, ring);
+
+// console.log(mychindsinkd);
+
+// let myobject1 = {
+//     10: "shadwo",
+//     20: "shadwo",
+//     30: "shadwo",
+//     40: "shadwo",
+// }
+// let myobject2 = {
+//     50: "shadwo",
+//     60: "shadwo",
+//     70: "shadwo",
+//     80: "shadwo",
+// }
+// let minnub = 15;
+// let miankay = Object.keys(myobject1);
+// let mindskjd = miankay.map((n) => +n);
+
+// let miaobadhbskj = mindskjd.every(function (e) {
+//     return e > this;
+// },minnub);
+
+// console.log({...myobject1, ...myobject2});
+
+
+// console.log([..."mohammed"]);
+// console.log([...myarry]);
+   
+// let n1 = [10, 30, 10, 20];
+// let n2 = [30, 20, 10];
+// console.log(Math.max(...n1) * [...n1 , ...n2].length); // 210
+
+
+let msssjin = "Mohammed al hommede in the world In";
+
+let ege = /Mohammed/;
+console.log(msssjin.match(/in/ig));
