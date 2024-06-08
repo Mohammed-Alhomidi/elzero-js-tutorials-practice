@@ -1944,7 +1944,31 @@
 // console.log(Math.max(...n1) * [...n1 , ...n2].length); // 210
 
 
-let msssjin = "Mohammed al hommede in the world In";
+// let msssjin = "Com Info Org Net IO Code";
+// let ege = /(org|io|info)/ig;
+// console.log(msssjin.match(ege));
 
-let ege = /Mohammed/;
-console.log(msssjin.match(/in/ig));
+// let mynumber = "123456789";
+// let num = /[0-5]/g;
+// console.log(mynumber.match(num));
+
+// let mynueber = "org8org orgi6 isu6 ysu 7 skb9jsi org8orgs";
+// let nuem = /[A-z]@/g;
+// console.log(mynueber.match(nuem));
+
+// let email = 'O@@@g...com O@g.com O@g.net A@Y.com O-g.com o@s.org 1@1.com';
+// let atozq = /./g;
+// let atoz = /\w/g;
+// let atoze = /\W/g;
+// let atozeq = /\w@\w.(com|net)/g;
+// console.log(email.match(atozq));
+// console.log(email.match(atoz));
+// console.log(email.match(atoze));
+// console.log(email.match(atozeq));
+
+
+let names = "Sayed 1Spam 2Spam 3Spam Spam4 Spam5 Osama Ahmed Aspamo";
+
+let age = /\bspam|spam\b/ig;
+
+console.log(names.match(age));
