@@ -1967,8 +1967,86 @@
 // console.log(email.match(atozeq));
 
 
-let names = "Sayed 1Spam 2Spam 3Spam Spam4 Spam5 Osama Ahmed Aspamo";
+// let names = "Sayed 1Spam 2Spam 3Spam Spam4 Spam5 Osama Ahmed Aspamo";
+// let age = /\bspam|spam\b/ig;
+// console.log(names.match(age));
 
-let age = /\bspam|spam\b/ig;
 
-console.log(names.match(age));
+// let mails = "o@nn.sa osama@gmail.com elzero@gmail.net osama@mail.ru"; // All Emails
+// let adg = /\w+@\w+.\w+/ig;
+// console.log(mails.match(adg));
+
+// let adg = /0\d*0/ig;
+// let nums = "0110 10 150 05120 0560 350 00"; // 0 Numbers Or No 0
+// console.log(nums.match(adg));
+
+// let urls = "https://google.com http://www.website.net web.com"; // http + https
+// let adg = /(https?:\/\/)?(www.)?\w+.\w+/ig;
+// console.log(urls.match(adg));
+
+// let serials = "S100S S3000S S50000S S950000S";
+// let adg = /s\d{6,}s/ig;
+// console.log(serials.match(adg));
+
+// let myString = "We Love Programming";
+// let names = "1OsamaZ 2AhmedZ 3Mohammed 4MoustafaZ 5GamalZ";
+
+// console.log(/ing$/i.test(myString))
+// console.log(/^\d/i.test(names))
+
+// console.log(names.match(/\d\w{5}(?=Z)/ig));
+// console.log(names.replaceAll("Z" , "9"));5
+
+// let input = "2jkfhhs"
+
+// sdkhbs = input.replace(/[^\d]/ig, '');
+
+// console.log(sdkhbs);
+
+// document.querySelector("form").onsubmit = function () {
+//     let valueresalt = document.querySelector("#textinut").value;
+//     let age = /\(\d{4}\)\s\d{3}-\d{3}/;
+//     let adins = age.test(valueresalt);
+//     if (adins === false) {
+//         console.log(false);
+//         return false;
+//     };
+// };
+
+
+    /*
+    Regular Expression
+    - Challenge
+    */
+
+    // let url1 = 'elzero.org';
+    // let url2 = 'http://elzero.org';
+    // let url3 = 'https://elzero.org';
+    // let url4 = 'https://www.elzero.org';
+    // let url5 = 'https://www.elzero.org:8080/articles.php?id=100&cattodpics';
+
+    // const urlPattern = /^(https?:\/\/)?(www\.)?elzero\.org(:\d+)?(\/[^\s]*)?$/ig;
+
+    // let re = /^(https?:\/\/)?(www.)?\w+.org(:\d+\/\w+.\w+\?\w+=\d+&\w+=\w+)?/ig;
+
+    // console.log(url1.match(re));
+    // console.log(url2.match(re));
+    // console.log(url3.match(re));
+    // console.log(url4.match(re));
+    // console.log(url5.match(urlPattern));
+
+    class User {
+    constructor(id, username, salary) {
+        this.i = id;
+        this.u = username;
+        this.s = salary + 1000;
+    }
+}
+
+    let objectone = new User(101,"Mohammed", 7000);
+    let objecttow = new User(102,"Hamad", 8000);
+    let objecthree = new User(102,"Salem", 9000);
+
+    console.log(objectone.s);
+    console.log(objecttow.s);
+    console.log(objecthree.s);
