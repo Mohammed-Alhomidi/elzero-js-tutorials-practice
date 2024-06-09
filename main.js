@@ -2038,15 +2038,21 @@
     class User {
     constructor(id, username, salary) {
         this.i = id;
-        this.u = username;
-        this.s = salary + 1000;
+        this.u = username || "sah";
+        this.s = salary < 8000 ? salary + 500 : salary;
+    }
+    mas () {
+        return `Hello ${this.u} your salary is ${this.s}`
     }
 }
 
-    let objectone = new User(101,"Mohammed", 7000);
+    let objectone = new User(101,"mohammed", 7000);
     let objecttow = new User(102,"Hamad", 8000);
     let objecthree = new User(102,"Salem", 9000);
 
+    console.log(objectone.u);
+    console.log(objectone.mas());
     console.log(objectone.s);
+
     console.log(objecttow.s);
     console.log(objecthree.s);
