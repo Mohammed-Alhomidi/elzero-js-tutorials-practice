@@ -2034,25 +2034,30 @@
     // console.log(url3.match(re));
     // console.log(url4.match(re));
     // console.log(url5.match(urlPattern));
+    // document.querySelector("form").onsubmit = nweNames() {
+    //     let nweName = document.querySelector("#textinut").value;
+    // };
+
 
     class User {
     constructor(id, username, salary) {
         this.i = id;
-        this.u = username || "sah";
-        this.s = salary < 8000 ? salary + 500 : salary;
+        this.u = username;
+        this.s = salary;
     }
-    mas () {
-        return `Hello ${this.u} your salary is ${this.s}`
-    }
-}
+    nweNames(nweName) {
+        this.u = nweName;
+    };
+};
 
     let objectone = new User(101,"mohammed", 7000);
     let objecttow = new User(102,"Hamad", 8000);
     let objecthree = new User(102,"Salem", 9000);
 
     console.log(objectone.u);
-    console.log(objectone.mas());
-    console.log(objectone.s);
+    objectone.nweNames("shadow");
+    console.log(objectone.u);
 
-    console.log(objecttow.s);
-    console.log(objecthree.s);
+
+
+
