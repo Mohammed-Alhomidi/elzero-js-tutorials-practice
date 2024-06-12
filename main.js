@@ -2039,25 +2039,102 @@
     // };
 
 
+//     class User {
+//     constructor(id, username, salary) {
+//         this.i = id;
+//         this.u = username;
+//         this.s = salary;
+//     }
+//     seehello() {
+//         return `Hello ${this.u}`
+//     }
+// };
+
+    // class Admin extends User{
+    //     constructor (id,username,permionns) {
+    //         super (id,username);
+    //         this.p = permionns;
+    //     }
+    // }
+    // let admins = new Admin (120,"shadow",12000,1);
+    // console.log(admins.seehello());
+    // console.log(admins.u);
+    // console.log(admins.s);
+
+
+    // class User {
+    //     #s;
+    //     constructor(id, username, salary) {
+    //         this.i = id;
+    //         this.u = username;
+    //         this.#s = salary;
+    //     }
+    //     seehello() {
+    //         return parseInt(this.#s);
+    //     }
+    // };
+
+
+    // let objectone = new User(101,"mohammed", "5000 geneh");
+
+    // console.log(objectone.seehello() * 0.3);
+    // // console.log(objectone.seehello());
+
+
+    // class User {
+    //     #s;
+    //     constructor (userName, id, salary) {
+    //         this.u = userName;
+    //         this.i = id;
+    //         this.#s = salary;
+    //     }
+    //     sayhello() {
+    //         return `Hello manegr ${this.u} and your salary is ${this.s}`
+    //     };
+    //     salhelo() {
+    //         return this.#s;
+    //     }
+    // };
+
+    // class Admin extends User {
+    //     #h;
+    //     constructor (userName, id , salary, shadow) {
+    //         super (userName, id, salary)
+    //         this.#h = shadow;
+    //     }
+    // sh3aj () {
+    //     return this.#h;
+    // }
+    // }
+
+    // let objectadmin = new Admin ("shadow",829,7283,"mohammed");
+    // console.log(objectadmin.i);
+    // console.log(objectadmin.u);
+    // console.log(objectadmin.salhelo());
+    // console.log(objectadmin.sayhello());
+
+    // console.log("#############3");
+    // let oneobject = new User ("mohammed",100,2000);
+    // console.log(oneobject.i);
+    // console.log(oneobject.u);
+    // console.log(oneobject.salhelo());
+    // console.log(oneobject.sayhello());
+
+
     class User {
-    constructor(id, username, salary) {
-        this.i = id;
-        this.u = username;
-        this.s = salary;
+        constructor (userName, id, salary) {
+            this.u = userName;
+            this.i = id;
+            this.s = salary;
+        }
+        seehello() {
+            return `Hello ${this.u} wellcom you and your salary is ${this.s}`
+        }
     }
-    nweNames(nweName) {
-        this.u = nweName;
-    };
-};
 
-    let objectone = new User(101,"mohammed", 7000);
-    let objecttow = new User(102,"Hamad", 8000);
-    let objecthree = new User(102,"Salem", 9000);
-
+    let objectone = new User ("mohhamed", 100, 12000);
     console.log(objectone.u);
-    objectone.nweNames("shadow");
-    console.log(objectone.u);
+    console.log(User.prototype);
+    console.log(objectone);
 
-
-
-
+    
