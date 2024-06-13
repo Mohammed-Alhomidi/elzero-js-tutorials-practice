@@ -2128,7 +2128,7 @@
             this.s = salary;
         }
         seehello() {
-            return `Hello ${this.u} wellcom you and your salary is ${this.s}`
+            return `Hello ${this.u} wellcom you and your sal  ary is ${this.s}`
         }
     }
 
