@@ -2143,23 +2143,28 @@
 
     // let mystring = "shaodw";
 
-    const objectone = {
-        a: 1,
-        b: 2,
-    };
+//     const objectone = {
+//         a: 1,
+//         b: 2,
+//     };
     
-    Object.defineProperty(objectone, "c", {
-        writable: false,
-        enumerable: true,
-        configurable: true,
-        value: 3,
-    });
-    
-    objectone.c = 29183728236872;``
-    console.log(delete objectone.c);
-    
-    for(let min in objectone) {
-        console.log(`${min}:`, objectone[min]);
-    }
-    
-    console.log(objectone);
+//     Object.defineProperties(objectone, {
+//         c: {
+//             configurable: true,
+//             value: 3,
+//         },
+//         d: {
+//             configurable: true,
+//             value: 4,
+//         },
+//         e: {
+//             configurable: true,
+//             value: 5,
+//         },
+//     })
+
+// console.log(Object.getOwnPropertyDescriptors(objectone));
+
+let main = new Date();
+
+console.log(main.getSeconds());
