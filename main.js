@@ -2121,20 +2121,45 @@
     // console.log(oneobject.sayhello());
 
 
-    class User {
-        constructor (userName, id, salary) {
-            this.u = userName;
-            this.i = id;
-            this.s = salary;
-        }
-        seehello() {
-            return `Hello ${this.u} wellcom you and your sal  ary is ${this.s}`
-        }
-    }
+    // class User {
+    //     constructor (userName, id, salary) {
+    //         this.u = userName;
+    //         this.i = id;
+    //         this.s = salary;
+    //     }
+    //     seehello() {
+    //         return `Hello ${this.u} wellcom you and your sal  ary is ${this.s}`
+    //     }
+    // }
 
-    let objectone = new User ("mohhamed", 100, 12000);
-    console.log(objectone.u);
-    console.log(User.prototype);
-    console.log(objectone);
+    // let objectone = new User ("mohhamed", 100, 12000);
+    // console.log(objectone.u);
+    // console.log(User.prototype);
+    // console.log(objectone);
 
+    // String.prototype.mohammed = function (val) {
+    //     return `.${this}.`;
+    // };
+
+    // let mystring = "shaodw";
+
+    const objectone = {
+        a: 1,
+        b: 2,
+    };
     
+    Object.defineProperty(objectone, "c", {
+        writable: false,
+        enumerable: true,
+        configurable: true,
+        value: 3,
+    });
+    
+    objectone.c = 29183728236872;``
+    console.log(delete objectone.c);
+    
+    for(let min in objectone) {
+        console.log(`${min}:`, objectone[min]);
+    }
+    
+    console.log(objectone);
