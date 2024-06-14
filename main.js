@@ -2167,4 +2167,4 @@
 
 let main = new Date();
 
-console.log(main.getSeconds());
+console.log(main.get);
