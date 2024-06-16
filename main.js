@@ -2165,6 +2165,32 @@
 
 // console.log(Object.getOwnPropertyDescriptors(objectone));
 
-let main = new Date();
+// let main = new Date("1900-12-12");
+// console.log(main);
+// console.log("#".repeat(60));
 
-console.log(main.get);
+// main.setTime(0);
+// console.log(main);
+// console.log("#".repeat(60));
+
+// main.setTime(10000);
+// console.log(main);
+// console.log("#".repeat(60));
+
+// main.setDate(1);
+// console.log(main);
+// console.log("#".repeat(60));
+
+let satrt = new Date();
+
+for (let i= 0; i < 1000 ; i++) {
+    // document.write(`<div>${i}<div/>`);
+    let div = document.createElement("div");
+    div.appendChild(document.createTextNode(i));
+    document.body.appendChild(div);
+}
+
+let end = new Date();
+
+let fortin = end - satrt;
+console.log(fortin);
