@@ -2183,7 +2183,7 @@
 
 let satrt = new Date();
 
-for (let i= 0; i < 1000 ; i++) {
+for (let i= 0; i < 1000 ; i++) {  
     // document.write(`<div>${i}<div/>`);
     let div = document.createElement("div");
     div.appendChild(document.createTextNode(i));
