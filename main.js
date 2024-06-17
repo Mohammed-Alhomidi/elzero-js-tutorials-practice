@@ -2181,16 +2181,109 @@
 // console.log(main);
 // console.log("#".repeat(60));
 
-let satrt = new Date();
+// let satrt = new Date();
 
-for (let i= 0; i < 1000 ; i++) {  
-    // document.write(`<div>${i}<div/>`);
-    let div = document.createElement("div");
-    div.appendChild(document.createTextNode(i));
-    document.body.appendChild(div);
-}
+// for (let i= 0; i < 1000 ; i++) {  
+//     // document.write(`<div>${i}<div/>`);
+//     let div = document.createElement("div");
+//     div.appendChild(document.createTextNode(i));
+//     document.body.appendChild(div);
+// }
 
-let end = new Date();
+// let end = new Date();
 
-let fortin = end - satrt;
-console.log(fortin);
+// let fortin = end - satrt;
+// console.log(fortin);
+
+// function* gentoring () {
+//     yield 1;
+//     console.log("hello main");
+//     yield 2;
+//     yield 3;
+//     yield 4;
+// }
+
+// let main = gentoring();
+
+// console.log(typeof main);
+// console.log(main);
+// console.log(main.next());
+// console.log(main.next());
+// console.log(main.next());
+// console.log(main.next());
+// console.log(main.next());
+
+// for (let value of gentoring()) {
+//     console.log(value);
+// };
+
+// for (let value of main) {
+//     console.log(value);
+// };
+
+// function* genrksksd () {
+//     yield 1;
+//     yield 2;
+//     yield 3;
+// };
+
+// function* gakuhdu () {
+//     yield "A";
+//     yield "B";
+//     yield "C";
+// };
+
+
+// function* generatorall () {
+//     let main = 0;
+//     while (true) {
+//         yield main++;
+//     }
+// };
+
+// let generatorallmin = generatorall();
+
+// console.log(generatorallmin.next());
+// console.log(generatorallmin.next());
+// console.log(generatorallmin.next());
+// console.log(generatorallmin.next());
+
+
+// export let a = 19;
+// export let b = "ldjnak";
+
+// export function sayHello () {
+//     return `hello`;
+// };
+
+
+
+// let jusnfromserver = '{"username": "mohmaeed", "age": 19}';
+// console.log(typeof jusnfromserver);
+// console.log(jusnfromserver);
+
+// let jusnfromserverto = JSON.parse(jusnfromserver);
+// console.log(typeof jusnfromserverto);
+// console.log(jusnfromserverto);
+
+// jusnfromserverto["username"] = "shadow";
+// jusnfromserverto["age"] = 20;
+
+// let jusntoserver = JSON.stringify(jusnfromserverto);
+// console.log(typeof jusntoserver);
+// console.log(jusntoserver);
+
+
+// https://api.jsonserve.com/t6f3WD
+
+let red = new XMLHttpRequest;
+red.open("GET", "https://api.github.com/users/elzerowebschool/repos");
+red.send();
+console.log(red);
+
+red.onreadystatechange = function () {
+    if (this.readyState === 4 && this.status === 200) {
+        let josons = JSON.parse(this.responseText);
+        console.log(josons);
+    }
+};
