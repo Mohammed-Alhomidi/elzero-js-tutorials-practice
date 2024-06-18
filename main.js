@@ -1845,7 +1845,7 @@
 
 // let colorful = [1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"];
 
-// function playinto (){ 
+// function playinto (){
 //   let colorsol = [];
 
 // for (let i = 0; i < 6; i++) {
@@ -1879,8 +1879,7 @@
 // let myset = new Set(myarry);
 // console.log(myset);
 
-// console.log(Array.from(myset)); 
-
+// console.log(Array.from(myset));
 
 // let myarry = [10,20,30,40,50];
 // console.log(myarry);
@@ -1934,15 +1933,12 @@
 
 // console.log({...myobject1, ...myobject2});
 
-
 // console.log([..."mohammed"]);
 // console.log([...myarry]);
-    
-        
+
 // let n1 = [10, 30, 10, 20];
 // let n2 = [30, 20, 10];
 // console.log(Math.max(...n1) * [...n1 , ...n2].length); // 210
-
 
 // let msssjin = "Com Info Org Net IO Code";
 // let ege = /(org|io|info)/ig;
@@ -1966,11 +1962,9 @@
 // console.log(email.match(atoze));
 // console.log(email.match(atozeq));
 
-
 // let names = "Sayed 1Spam 2Spam 3Spam Spam4 Spam5 Osama Ahmed Aspamo";
 // let age = /\bspam|spam\b/ig;
 // console.log(names.match(age));
-
 
 // let mails = "o@nn.sa osama@gmail.com elzero@gmail.net osama@mail.ru"; // All Emails
 // let adg = /\w+@\w+.\w+/ig;
@@ -2013,31 +2007,29 @@
 //     };
 // };
 
-
-    /*
+/*
     Regular Expression
     - Challenge
     */
 
-    // let url1 = 'elzero.org';
-    // let url2 = 'http://elzero.org';
-    // let url3 = 'https://elzero.org';
-    // let url4 = 'https://www.elzero.org';
-    // let url5 = 'https://www.elzero.org:8080/articles.php?id=100&cattodpics';
+// let url1 = 'elzero.org';
+// let url2 = 'http://elzero.org';
+// let url3 = 'https://elzero.org';
+// let url4 = 'https://www.elzero.org';
+// let url5 = 'https://www.elzero.org:8080/articles.php?id=100&cattodpics';
 
-    // const urlPattern = /^(https?:\/\/)?(www\.)?elzero\.org(:\d+)?(\/[^\s]*)?$/ig;
+// const urlPattern = /^(https?:\/\/)?(www\.)?elzero\.org(:\d+)?(\/[^\s]*)?$/ig;
 
-    // let re = /^(https?:\/\/)?(www.)?\w+.org(:\d+\/\w+.\w+\?\w+=\d+&\w+=\w+)?/ig;
+// let re = /^(https?:\/\/)?(www.)?\w+.org(:\d+\/\w+.\w+\?\w+=\d+&\w+=\w+)?/ig;
 
-    // console.log(url1.match(re));
-    // console.log(url2.match(re));
-    // console.log(url3.match(re));
-    // console.log(url4.match(re));
-    // console.log(url5.match(urlPattern));
-    // document.querySelector("form").onsubmit = nweNames() {
-    //     let nweName = document.querySelector("#textinut").value;
-    // };
-
+// console.log(url1.match(re));
+// console.log(url2.match(re));
+// console.log(url3.match(re));
+// console.log(url4.match(re));
+// console.log(url5.match(urlPattern));
+// document.querySelector("form").onsubmit = nweNames() {
+//     let nweName = document.querySelector("#textinut").value;
+// };
 
 //     class User {
 //     constructor(id, username, salary) {
@@ -2050,104 +2042,100 @@
 //     }
 // };
 
-    // class Admin extends User{
-    //     constructor (id,username,permionns) {
-    //         super (id,username);
-    //         this.p = permionns;
-    //     }
-    // }
-    // let admins = new Admin (120,"shadow",12000,1);
-    // console.log(admins.seehello());
-    // console.log(admins.u);
-    // console.log(admins.s);
+// class Admin extends User{
+//     constructor (id,username,permionns) {
+//         super (id,username);
+//         this.p = permionns;
+//     }
+// }
+// let admins = new Admin (120,"shadow",12000,1);
+// console.log(admins.seehello());
+// console.log(admins.u);
+// console.log(admins.s);
 
+// class User {
+//     #s;
+//     constructor(id, username, salary) {
+//         this.i = id;
+//         this.u = username;
+//         this.#s = salary;
+//     }
+//     seehello() {
+//         return parseInt(this.#s);
+//     }
+// };
 
-    // class User {
-    //     #s;
-    //     constructor(id, username, salary) {
-    //         this.i = id;
-    //         this.u = username;
-    //         this.#s = salary;
-    //     }
-    //     seehello() {
-    //         return parseInt(this.#s);
-    //     }
-    // };
+// let objectone = new User(101,"mohammed", "5000 geneh");
 
+// console.log(objectone.seehello() * 0.3);
+// // console.log(objectone.seehello());
 
-    // let objectone = new User(101,"mohammed", "5000 geneh");
+// class User {
+//     #s;
+//     constructor (userName, id, salary) {
+//         this.u = userName;
+//         this.i = id;
+//         this.#s = salary;
+//     }
+//     sayhello() {
+//         return `Hello manegr ${this.u} and your salary is ${this.s}`
+//     };
+//     salhelo() {
+//         return this.#s;
+//     }
+// };
 
-    // console.log(objectone.seehello() * 0.3);
-    // // console.log(objectone.seehello());
+// class Admin extends User {
+//     #h;
+//     constructor (userName, id , salary, shadow) {
+//         super (userName, id, salary)
+//         this.#h = shadow;
+//     }
+// sh3aj () {
+//     return this.#h;
+// }
+// }
 
+// let objectadmin = new Admin ("shadow",829,7283,"mohammed");
+// console.log(objectadmin.i);
+// console.log(objectadmin.u);
+// console.log(objectadmin.salhelo());
+// console.log(objectadmin.sayhello());
 
-    // class User {
-    //     #s;
-    //     constructor (userName, id, salary) {
-    //         this.u = userName;
-    //         this.i = id;
-    //         this.#s = salary;
-    //     }
-    //     sayhello() {
-    //         return `Hello manegr ${this.u} and your salary is ${this.s}`
-    //     };
-    //     salhelo() {
-    //         return this.#s;
-    //     }
-    // };
+// console.log("#############3");
+// let oneobject = new User ("mohammed",100,2000);
+// console.log(oneobject.i);
+// console.log(oneobject.u);
+// console.log(oneobject.salhelo());
+// console.log(oneobject.sayhello());
 
-    // class Admin extends User {
-    //     #h;
-    //     constructor (userName, id , salary, shadow) {
-    //         super (userName, id, salary)
-    //         this.#h = shadow;
-    //     }
-    // sh3aj () {
-    //     return this.#h;
-    // }
-    // }
+// class User {
+//     constructor (userName, id, salary) {
+//         this.u = userName;
+//         this.i = id;
+//         this.s = salary;
+//     }
+//     seehello() {
+//         return `Hello ${this.u} wellcom you and your sal  ary is ${this.s}`
+//     }
+// }
 
-    // let objectadmin = new Admin ("shadow",829,7283,"mohammed");
-    // console.log(objectadmin.i);
-    // console.log(objectadmin.u);
-    // console.log(objectadmin.salhelo());
-    // console.log(objectadmin.sayhello());
+// let objectone = new User ("mohhamed", 100, 12000);
+// console.log(objectone.u);
+// console.log(User.prototype);
+// console.log(objectone);
 
-    // console.log("#############3");
-    // let oneobject = new User ("mohammed",100,2000);
-    // console.log(oneobject.i);
-    // console.log(oneobject.u);
-    // console.log(oneobject.salhelo());
-    // console.log(oneobject.sayhello());
+// String.prototype.mohammed = function (val) {
+//     return `.${this}.`;
+// };
 
-
-    // class User {
-    //     constructor (userName, id, salary) {
-    //         this.u = userName;
-    //         this.i = id;
-    //         this.s = salary;
-    //     }
-    //     seehello() {
-    //         return `Hello ${this.u} wellcom you and your sal  ary is ${this.s}`
-    //     }
-    // }
-
-    // let objectone = new User ("mohhamed", 100, 12000);
-    // console.log(objectone.u);
-    // console.log(User.prototype);
-    // console.log(objectone);
-
-    // String.prototype.mohammed = function (val) {
-    //     return `.${this}.`;
-    // };
-
-    // let mystring = "shaodw";
+// let mystring = "shaodw";
 
 //     const objectone = {
 //         a: 1,
 //         b: 2,
 //     };
-    
+
 //     Object.defineProperties(objectone, {
 //         c: {
 //             configurable: true,
@@ -2183,7 +2171,7 @@
 
 // let satrt = new Date();
 
-// for (let i= 0; i < 1000 ; i++) {  
+// for (let i= 0; i < 1000 ; i++) {
 //     // document.write(`<div>${i}<div/>`);
 //     let div = document.createElement("div");
 //     div.appendChild(document.createTextNode(i));
@@ -2233,7 +2221,6 @@
 //     yield "C";
 // };
 
-
 // function* generatorall () {
 //     let main = 0;
 //     while (true) {
@@ -2248,15 +2235,12 @@
 // console.log(generatorallmin.next());
 // console.log(generatorallmin.next());
 
-
 // export let a = 19;
 // export let b = "ldjnak";
 
 // export function sayHello () {
 //     return `hello`;
 // };
-
-
 
 // let jusnfromserver = '{"username": "mohmaeed", "age": 19}';
 // console.log(typeof jusnfromserver);
@@ -2273,17 +2257,88 @@
 // console.log(typeof jusntoserver);
 // console.log(jusntoserver);
 
-
 // https://api.jsonserve.com/t6f3WD
 
-let red = new XMLHttpRequest;
-red.open("GET", "https://api.github.com/users/elzerowebschool/repos");
-red.send();
-console.log(red);
+// function chingcolor (e) {
+//     e.target.style.color = "red";
+// };
 
-red.onreadystatechange = function () {
-    if (this.readyState === 4 && this.status === 200) {
-        let josons = JSON.parse(this.responseText);
-        console.log(josons);
-    }
+// let pra = document.querySelector(".test");
+
+// function creat () {
+//     pra.addEventListener("click" , chingcolor);
+// }
+
+// setTimeout(creat, 3000);
+// const myPromise = new Promise((resolveFunction, rejectFunction) => {
+//     let employees = ["ahmmed", "nora", "manin", "maijn"];
+//     if (employees.length === 4) {
+//       resolveFunction(employees);
+//     } else {
+//       rejectFunction(Error("Number Of Employees Is Not 4"));
+//     }
+//   });
+
+//   myPromise.then((resolveValue) => {
+//       resolveValue.length = 2;
+//       console.log(resolveValue);
+//     })
+
+// red.onreadystatechange = function () {
+//   if (this.readyState === 4 && this.status === 200) {
+//     let josons = JSON.parse(this.responseText);
+//     console.log(josons);
+//     for (let i = 0; i < 10; i++) {
+//       let div = document.createElement("div");
+//       div.appendChild(document.createTextNode(josons[i].full_name));
+//       document.body.appendChild(div);
+//       console.log(josons[i].full_name);
+//     }
+//   }
+// };
+
+// const getData = function (apilink) {
+//   return new Promise((reserve, reject) => {
+//     let red = new XMLHttpRequest();
+//     red.onload = function () {
+//         if (this.readyState === 4 && this.status === 200) {
+//             reserve(JSON.parse(this.responseText));
+//           } else {
+//             reject(Error("this api is not find"));
+//           }
+//     };
+//     red.open("GET", apilink);
+//     red.send();
+//   })
+// };
+// getData("https://api.github.com/users/elzerowebschool/repos").then(
+//     (resal) => console.log(resal)
+// )
+
+const getData = function (Api) {
+  return new Promise((resrve, rejected) => {
+    let red = new XMLHttpRequest();
+    red.onload = function () {
+      if (this.readyState === 4 && this.status === 200) {
+        resrve(JSON.parse(this.responseText));
+      } else {
+        rejected(Error("this api is not find"));
+      }
+    };
+    red.open("GET", Api);
+    red.send();
+  });
 };
+
+getData("https://api.github.com/users/elzerowebschool/repos")
+  .then((resalte) => {
+    resalte.length = 10;
+    return resalte;
+  })
+  .then((replas) => {
+    for (let i = 0; i < replas.length; i++) {
+        let div = document.createElement("div");
+        div.appendChild(document.createTextNode(replas[i].full_name));
+        document.body.appendChild(div);
+    }
+  });
